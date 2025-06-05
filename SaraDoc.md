@@ -469,7 +469,7 @@ The collection is organized into three main categories:
 
 ---
 
-## - **Service Payment**
+## **9. Service Payment**
 
 ### Endpoint: Get List Of Services
 
@@ -1360,8 +1360,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTYyMzcxNTQsODIyNzgzMDQzLDE5OD
-g4NDYyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcs
-LTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNj
-MzODY0Nzc4LC01NzgxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbNTk5NzY2NjYsODIyNzgzMDQzLDE5ODg4ND
+YyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEz
+NDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzOD
+Y0Nzc4LC01NzgxNzM1ODZdfQ==
 -->
