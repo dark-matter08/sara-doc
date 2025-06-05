@@ -310,9 +310,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{{preprod}}/bam/account/statement/10005-00056-07605371051-12/2023-02-26/2023-03-08/0/100`
-
-**Base URL:** `{{preprod}}`
+**URL:** `http://{Base URL}/bam/account/statement/10005-00056-07605371051-12/2023-02-26/2023-03-08/0/100`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -322,9 +320,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/gimac/api/gimac/authentication/doCheckAvailabilityOfGimac`
-
-**Base URL:** `172.26.5.28`
+**URL:** `http://{Base URL}/gimac/api/gimac/authentication/doCheckAvailabilityOfGimac`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -332,9 +328,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{{preprod}}/wallet-management-interne/api/wallets/topUp/afriland`
-
-**Base URL:** `{{preprod}}`
+**URL:** `http://{Base URL}/wallet-management-interne/api/wallets/topUp/afriland`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -397,9 +391,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{{preprod}}/wallet-management-interne/api/transactions/cashOut`
-
-**Base URL:** `{{preprod}}`
+**URL:** `http://{Base URL}/wallet-management-interne/api/transactions/cashOut`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -463,9 +455,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://10.0.100.1/wallet-management/api/payment/services`
-
-**Base URL:** `10.0.100.1`
+**URL:** `http://{Base URL}/wallet-management/api/payment/services`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -479,9 +469,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://10.0.100.1/wallet-management/api/payment/merchants`
-
-**Base URL:** `10.0.100.1`
+**URL:** `http://{Base URL}/wallet-management/api/payment/merchants`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -497,9 +485,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://10.0.102.22/saramerchant-interne/customer/transactions/before-payment-by-code`
-
-**Base URL:** `10.0.102.22`
+**URL:** `http://{Base URL}/saramerchant-interne/customer/transactions/before-payment-by-code`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -524,9 +510,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://10.0.102.22/saramerchant-interne/customer/transactions/payment-by-code`
-
-**Base URL:** `10.0.102.22`
+**URL:** `http://{Base URL}/saramerchant-interne/customer/transactions/payment-by-code`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -550,13 +534,11 @@ The collection is organized into three main categories:
 
 ```
 
-## **11. Calculate fee **
+## 11. Calculate fee 
 
 **Method:** `POST`
 
-**URL:** `http://10.0.102.22/sarabackofficeservices-interne/customer/transactionFees/calculate`
-
-**Base URL:** `10.0.102.22`
+**URL:** `http://{Base URL}/sarabackofficeservices-interne/customer/transactionFees/calculate`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -1348,9 +1330,9 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODAwNjkxNCwtNjcxNDkxNTc4LC0yMT
-AzOTI4MDQ4LDgyMjc4MzA0MywxOTg4ODQ2MjIwLC00Mjg3NzE5
-LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYzLDExOD
-MxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNTc4MTcz
-NTg2XX0=
+eyJoaXN0b3J5IjpbNTY2MjgyNjc2LC02NzE0OTE1NzgsLTIxMD
+M5MjgwNDgsODIyNzgzMDQzLDE5ODg4NDYyMjAsLTQyODc3MTks
+LTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMsMTE4Mz
+EyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01NzgxNzM1
+ODZdfQ==
 -->
