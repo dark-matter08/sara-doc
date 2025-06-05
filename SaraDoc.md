@@ -150,7 +150,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/bam/txn/recurrentTransfer`
+**URL:** `http://{{baseUrl}}/bam/txn/recurrentTransfer`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -217,7 +217,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/wallet-management/api/requestMoney/received?page=0&size=10`
+**URL:** `http://{{baseUrl}}/wallet-management/api/requestMoney/received?page=0&size=10`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -238,7 +238,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/wallet-management/api/requestMoney/requested?page=1&size=10`
+**URL:** `http://{{baseUrl}}/wallet-management/api/requestMoney/requested?page=1&size=10`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -259,7 +259,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/wallet-management-interne/api/transactions/payRequestMoney`
+**URL:** `http://{{baseUrl}}/wallet-management-interne/api/transactions/payRequestMoney`
 
 
 **Purpose:** This endpoint likely creates a new resource.
@@ -290,7 +290,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/wallet-management/api/wallets/history?currencyCodes=XAF&fromDate=2023-12-04&toDate=2023-12-14&page=0&size=10`
+**URL:** `http://{{baseUrl}}/wallet-management/api/wallets/history?currencyCodes=XAF&fromDate=2023-12-04&toDate=2023-12-14&page=0&size=10`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -310,7 +310,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/bam/account/statement/10005-00056-07605371051-12/2023-02-26/2023-03-08/0/100`
+**URL:** `http://{{baseUrl}}/bam/account/statement/10005-00056-07605371051-12/2023-02-26/2023-03-08/0/100`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -320,7 +320,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/gimac/api/gimac/authentication/doCheckAvailabilityOfGimac`
+**URL:** `http://{{baseUrl}}/gimac/api/gimac/authentication/doCheckAvailabilityOfGimac`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -328,7 +328,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/wallet-management-interne/api/wallets/topUp/afriland`
+**URL:** `http://{{baseUrl}}/wallet-management-interne/api/wallets/topUp/afriland`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -391,7 +391,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/wallet-management-interne/api/transactions/cashOut`
+**URL:** `http://{{baseUrl}}/wallet-management-interne/api/transactions/cashOut`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -1292,7 +1292,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk0NzAxOSwyMDk4MzA0OTYxLC02Nz
+eyJoaXN0b3J5IjpbLTYwNDczMDM4MywyMDk4MzA0OTYxLC02Nz
 E0OTE1NzgsLTIxMDM5MjgwNDgsODIyNzgzMDQzLDE5ODg4NDYy
 MjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzND
 U0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0
