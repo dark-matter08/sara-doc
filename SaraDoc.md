@@ -824,7 +824,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Save phone number / email of recovery
+### d. Endpoint: Save phone number / email of recovery
 
 **Method:** `POST`
 
@@ -855,9 +855,11 @@ The collection is organized into three main categories:
 
 
 
-### OTHERS
--  **Tontine**
-- ### Endpoint: Add New Member
+# OTHERS
+
+## **1. Tontine**
+
+ ### a. Endpoint: Add New Member
 
 **Method:** `POST`
 
@@ -884,7 +886,7 @@ The collection is organized into three main categories:
 ```
 ---
 
-### Endpoint: Get Jackpot Approval
+### b. Endpoint: Get Jackpot Approval
 
 **Method:** `GET`
 
@@ -900,7 +902,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get Jackpot Details
+### c. Endpoint: Get Jackpot Details
 
 **Method:** `GET`
 
@@ -922,7 +924,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get Jackpot Details
+### d. Endpoint: Get Jackpot Details
 
 **Method:** `GET`
 
@@ -944,7 +946,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get Jackpot Invitation
+### e. Endpoint: Get Jackpot Invitation
 
 **Method:** `GET`
 
@@ -970,7 +972,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get Jackpot List
+### f. Endpoint: Get Jackpot List
 
 **Method:** `GET`
 
@@ -998,7 +1000,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get Sub Tontine
+### e. Endpoint: Get Sub Tontine
 
 **Method:** `GET`
 
@@ -1010,7 +1012,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get Sub Tontine By Wallet
+### f. Endpoint: Get Sub Tontine By Wallet
 
 **Method:** `GET`
 
@@ -1030,7 +1032,7 @@ The collection is organized into three main categories:
 | tontineType | SUB_TONTINE |
 ---
 
-### Endpoint: Get Sub Tontine List
+### g. Endpoint: Get Sub Tontine List
 
 **Method:** `GET`
 
@@ -1355,7 +1357,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTM2NjgyMyw4MjI3ODMwNDMsMTk4OD
+eyJoaXN0b3J5IjpbLTIwMDY4NzU1Myw4MjI3ODMwNDMsMTk4OD
 g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
 MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
 M4NjQ3NzgsLTU3ODE3MzU4Nl19
