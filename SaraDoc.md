@@ -708,13 +708,10 @@ The collection is organized into three main categories:
 }
 
 ```
--   **Forgot Password**
-- ## Section: Forgot password
 
+## **4. Forgot Password**
 
----
-
-### Endpoint: Generate OTP Password Reset Autonomus
+### a. Endpoint: Generate OTP Password Reset Autonomus
 
 **Method:** `POST`
 
@@ -743,7 +740,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Reset Password
+### b. Endpoint: Reset Password
 
 **Method:** `GET`
 
@@ -775,8 +772,10 @@ The collection is organized into three main categories:
 
 
 ---
--   **Recovery Password**
-### Endpoint: Fetch Recovery Email or PhoneNumber
+
+## **5. Recovery Password**
+
+### a. Endpoint: Fetch Recovery Email or PhoneNumber
 
 **Method:** `GET`
 
@@ -786,7 +785,7 @@ The collection is organized into three main categories:
 
 **Purpose:** This endpoint likely retrieves resource details.
 
-### Endpoint: Fetch Recovery Email or PhoneNumber
+### b. Endpoint: Fetch Recovery Email or PhoneNumber
 
 **Method:** `GET`
 
@@ -796,7 +795,7 @@ The collection is organized into three main categories:
 
 **Purpose:** This endpoint likely retrieves resource details.
 
-### Endpoint: Generate OTP
+### c. Endpoint: Generate OTP
 
 **Method:** `POST`
 
@@ -1356,7 +1355,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTIxNDc3OCw4MjI3ODMwNDMsMTk4OD
+eyJoaXN0b3J5IjpbMTg0NTM2NjgyMyw4MjI3ODMwNDMsMTk4OD
 g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
 MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
 M4NjQ3NzgsLTU3ODE3MzU4Nl19
