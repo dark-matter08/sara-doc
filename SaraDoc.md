@@ -30,6 +30,7 @@ The collection is organized into three main categories:
 
 -   **Connexion**
 -   **Login User**
+
 -   **Logout**
 -   **Verify Bank Account**
 -   **Register**
@@ -392,7 +393,7 @@ The collection is organized into three main categories:
 -   **Localisation Agence/ATM/TPE**
 -   **API Internal**
 
- **Accounts**
+ **Accounts/Profile**
 
 ### Endpoint: Get Bank Accounts
 
@@ -402,27 +403,6 @@ The collection is organized into three main categories:
 
 **Base URL:** `172.26.5.28`
 
-
-
-
-
----
-
-### Endpoint: Get User Profile
-
-**Method:** `GET`
-
-**URL:** `https://{{preprod}}/user-management/api/customers/profile`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-
----
 
 ### Endpoint: Get User Profile
 
@@ -434,27 +414,6 @@ The collection is organized into three main categories:
 
 **Purpose:** This endpoint likely retrieves resource details.
 
-
-
-
-
----
-
-### Endpoint: Get Wallet Account
-
-**Method:** `GET`
-
-**URL:** `http://{{preprod}}/wallet-management/api/wallets/balance`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely retrieves a list of resources.
-
-
-
-
-
----
 
 ### Endpoint: Get Wallet Account
 
@@ -1967,8 +1926,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjcxMjI2NSwxOTg4ODQ2MjIwLC00Mj
-g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
-LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
-c4MTczNTg2XX0=
+eyJoaXN0b3J5IjpbMzYwOTQ2MjA5LDE5ODg4NDYyMjAsLTQyOD
+c3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMs
+MTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01Nz
+gxNzM1ODZdfQ==
 -->
