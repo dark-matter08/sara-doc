@@ -902,7 +902,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine-interne/jackpot/invitation?inviteeId=1214&state=APPROVED&event=DISBURSEMENT
+**URL:** `http://{{baseUrl}}/tontine-interne/jackpot/invitation?inviteeId=1214&state=APPROVED&event=DISBURSEMENT
 `
 
 
@@ -927,7 +927,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine/jackpot`
+**URL:** `http://{{baseUrl}}/tontine/jackpot`
 
 
 
@@ -955,7 +955,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine-interne/tontine/sub/1502`
+**URL:** `http://{{baseUrl}}/tontine-interne/tontine/sub/1502`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -966,7 +966,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine/invitation/byWallet?wallet=653346688&tontineType=SUB_TONTINE
+**URL:** `http://{{baseUrl}}/tontine/invitation/byWallet?wallet=653346688&tontineType=SUB_TONTINE
 `
 
 **Purpose:** This endpoint likely retrieves a list of resources.
@@ -984,7 +984,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine-interne/tontine/sub/1502`
+**URL:** `http://{{baseUrl}}/tontine-interne/tontine/sub/1502`
 
 
 **Purpose:** This endpoint likely retrieves a list of resources.
@@ -995,7 +995,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine/transact/history?memberId=2502&txnType=CONTRIBUTION&page=1&size=20`
+**URL:** `http://{{baseUrl}}/tontine/transact/history?memberId=2502&txnType=CONTRIBUTION&page=1&size=20`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -1292,9 +1292,9 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTE2MzEwNSwyMDk4MzA0OTYxLC02Nz
-E0OTE1NzgsLTIxMDM5MjgwNDgsODIyNzgzMDQzLDE5ODg4NDYy
-MjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzND
-U0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0
-Nzc4LC01NzgxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbLTE2NDk0MjY0NDUsMjA5ODMwNDk2MSwtNj
+cxNDkxNTc4LC0yMTAzOTI4MDQ4LDgyMjc4MzA0MywxOTg4ODQ2
+MjIwLC00Mjg3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMz
+Q1NDgwNDYzLDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2
+NDc3OCwtNTc4MTczNTg2XX0=
 -->
