@@ -261,7 +261,6 @@ The collection is organized into three main categories:
 
 **URL:** `http://{Base URL}/wallet-management-interne/api/transactions/payRequestMoney`
 
-**Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -291,9 +290,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/wallet-management/api/wallets/history?currencyCodes=XAF&fromDate=2023-12-04&toDate=2023-12-14&page=0&size=10`
-
-**Base URL:** `172.26.5.28`
+**URL:** `http://{Base URL}/wallet-management/api/wallets/history?currencyCodes=XAF&fromDate=2023-12-04&toDate=2023-12-14&page=0&size=10`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -1351,9 +1348,9 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk0MDUwMzksLTY3MTQ5MTU3OCwtMj
-EwMzkyODA0OCw4MjI3ODMwNDMsMTk4ODg0NjIyMCwtNDI4Nzcx
-OSwtOTQyNTY0MDI1LDUyMTUxMjQ4NywtMTM0NTQ4MDQ2MywxMT
-gzMTI5NjQ1LC0xMDg2NjAyODA2LDE2MzM4NjQ3NzgsLTU3ODE3
-MzU4Nl19
+eyJoaXN0b3J5IjpbLTY0ODAwNjkxNCwtNjcxNDkxNTc4LC0yMT
+AzOTI4MDQ4LDgyMjc4MzA0MywxOTg4ODQ2MjIwLC00Mjg3NzE5
+LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYzLDExOD
+MxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNTc4MTcz
+NTg2XX0=
 -->
