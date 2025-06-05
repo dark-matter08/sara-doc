@@ -89,6 +89,69 @@ The collection is organized into three main categories:
 ---
 
 -   **Cash Out**
+### Endpoint: Proceed Cash Out
+
+**Method:** `POST`
+
+**URL:** `http://{{preprod}}/wallet-management-interne/api/transactions/cashOut`
+
+**Base URL:** `{{preprod}}`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "toAccountNumber": "10005-00056-07605371051-12",
+    "beneficiaryName": "N/A",
+    "amount": "500",
+    "currencyCode": "XAF",
+    "reason": "Sample",
+    "mfaToken": "111111",
+    "complementInfoDTO": {
+        "paymentMethodCode": "WALLET_CASH_IN_METHOD",
+        "channel": "SARA_MOBILE",
+        "aggregatorCode": "",
+        "partnerCode": "",
+        "toMemberCode": "",
+        "fromMemberCode": "",
+        "toMemberShortName": "",
+        "fromMemberShortName": "",
+        "externalWalletSource": "",
+        "externalWalletDestination": "",
+        "externalMobileSource": "",
+        "externalMobileDestination": "",
+        "aggregatorTransactionType": "",
+        "digitalServiceType": "CASHIN_SM",
+        "messengerName": "",
+        "messengerPhone": "",
+        "paymentMode": "BANK_ACCOUNT"
+    },
+    "commission": {
+        "currencyCode": "XAF",
+        "transactionFee": 50,
+        "feeIds": [
+            183
+        ],
+        "fixedAmount": 50,
+        "percentageAmount": 0,
+        "debitSenderAmount": 50.0,
+        "ttaAmount": 0.00,
+        "status": true,
+        "message": "FOND SUFFISANT"
+    }
+}
+
+```
+
+
+---
 -   **Service Payment**
 -  **Calculate fee**
 ### Endpoint: Calculate Fees
@@ -607,152 +670,14 @@ The collection is organized into three main categories:
 
 
 
----
-
-## Section: Cash In
-
-
-
-
-### Endpoint: Proceed Cash In
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.28/wallet-management-interne/api/wallets/cash-in/afriland`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-### Headers
-
-| Key | Value |
-|-----|-------|
-| sara-api-key | WYhfwpmOOGLdUR0sgjDd1aCNm1HMUikf |
-
-
-### Request Body
-
-
-```json
-
-{
-    "bankAccount": "10005-00019-07466761051-06",
-    "mfaToken": 545828,
-    "validateWithPin": false,
-    "confirm": false,
-    "description": "Top up through bank",
-    "walletTopupReq": {
-        "countryCode": "CM",
-        "currencyCode": "XAF",
-        "amount": 0
-    },
-    "complementInfoDTO": {
-        "paymentMethodCode": "WALLET_CASH_IN_METHOD",
-        "channel": "SARA_MOBILE",
-        "aggregatorCode": "",
-        "partnerCode": "",
-        "toMemberCode": "",
-        "fromMemberCode": "",
-        "toMemberShortName": "",
-        "fromMemberShortName": "",
-        "externalWalletSource": "",
-        "externalWalletDestination": "",
-        "externalMobileSource": "",
-        "externalMobileDestination": "",
-        "aggregatorTransactionType": "",
-        "digitalServiceType": "CASHIN_SM",
-        "messengerName": "",
-        "messengerPhone": "",
-        "paymentMode": "BANK_ACCOUNT"
-    },
-    "commission": {
-        "currencyCode": "XAF",
-        "transactionFee": 0,
-        "fixedAmount": 0,
-        "percentageAmount": 0,
-        "debitSenderAmount": 0.0,
-        "ttaAmount": 0.00,
-        "status": true,
-        "message": "FOND SUFFISANT"
-    }
-}
-
-```
-
-
----
 
 ## Section: Cash Out
 
 
 ---
 
-### Endpoint: Proceed Cash Out
-
-**Method:** `POST`
-
-**URL:** `http://{{preprod}}/wallet-management-interne/api/transactions/cashOut`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely creates a new resource.
 
 
-
-
-### Request Body
-
-
-```json
-
-{
-    "toAccountNumber": "10005-00056-07605371051-12",
-    "beneficiaryName": "N/A",
-    "amount": "500",
-    "currencyCode": "XAF",
-    "reason": "Sample",
-    "mfaToken": "111111",
-    "complementInfoDTO": {
-        "paymentMethodCode": "WALLET_CASH_IN_METHOD",
-        "channel": "SARA_MOBILE",
-        "aggregatorCode": "",
-        "partnerCode": "",
-        "toMemberCode": "",
-        "fromMemberCode": "",
-        "toMemberShortName": "",
-        "fromMemberShortName": "",
-        "externalWalletSource": "",
-        "externalWalletDestination": "",
-        "externalMobileSource": "",
-        "externalMobileDestination": "",
-        "aggregatorTransactionType": "",
-        "digitalServiceType": "CASHIN_SM",
-        "messengerName": "",
-        "messengerPhone": "",
-        "paymentMode": "BANK_ACCOUNT"
-    },
-    "commission": {
-        "currencyCode": "XAF",
-        "transactionFee": 50,
-        "feeIds": [
-            183
-        ],
-        "fixedAmount": 50,
-        "percentageAmount": 0,
-        "debitSenderAmount": 50.0,
-        "ttaAmount": 0.00,
-        "status": true,
-        "message": "FOND SUFFISANT"
-    }
-}
-
-```
-
-
----
 
 ## Section: Wallet To Wallet
 
@@ -875,15 +800,8 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get UserName By His Phone Number
 
-**Method:** `GET`
 
-**URL:** `http://172.26.5.28/wallet-management/api/wallets/237659460125/name`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely fetches a specific resource using a query parameter.
 
 
 
@@ -1825,8 +1743,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzMjA1MCwxOTg4ODQ2MjIwLC00Mjg3Nz
-E5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYzLDEx
-ODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNTc4MT
-czNTg2XX0=
+eyJoaXN0b3J5IjpbLTMxMzE1MTk0MCwxOTg4ODQ2MjIwLC00Mj
+g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
+LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
+c4MTczNTg2XX0=
 -->
