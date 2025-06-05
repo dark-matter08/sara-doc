@@ -471,7 +471,7 @@ The collection is organized into three main categories:
 
 ## **9. Service Payment**
 
-### Endpoint: Get List Of Services
+### a. Endpoint: Get List Of Services
 
 **Method:** `GET`
 
@@ -487,7 +487,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get List of merchants
+### b. Endpoint: Get List of merchants
 
 **Method:** `GET`
 
@@ -502,13 +502,10 @@ The collection is organized into three main categories:
 
 
 ---
-- **Merchant payment**
-## Section: Merchant
 
+## **10. Merchant payment**
 
----
-
-### Endpoint: Get Merchant Details
+### a. Endpoint: Get Merchant Details
 
 **Method:** `POST`
 
@@ -535,7 +532,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Pay Merchant
+### b. Endpoint: Pay Merchant
 
 **Method:** `POST`
 
@@ -564,8 +561,8 @@ The collection is organized into three main categories:
 }
 
 ```
--  **Calculate fee**
-### Endpoint: Calculate Fees
+
+## **11. Calculate fee **
 
 **Method:** `POST`
 
@@ -1360,8 +1357,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5NzY2NjYsODIyNzgzMDQzLDE5ODg4ND
-YyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEz
-NDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzOD
-Y0Nzc4LC01NzgxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbMzAwOTkyMzM0LDgyMjc4MzA0MywxOTg4OD
+Q2MjIwLC00Mjg3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0x
+MzQ1NDgwNDYzLDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMz
+g2NDc3OCwtNTc4MTczNTg2XX0=
 -->
