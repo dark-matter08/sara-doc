@@ -783,9 +783,9 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://172.26.5.28/user-management/api-public/customers/savePhoneOrEmailForPasswordReset`
+**URL:** `http://{Base URL}/user-management/api-public/customers/savePhoneOrEmailForPasswordReset`
 
-**Base URL:** `172.26.5.28`
+
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -818,9 +818,9 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://172.26.5.31/tontine/member`
+**URL:** `http://{Base URL}/tontine/member`
 
-**Base URL:** `172.26.5.31`
+
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -845,9 +845,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://10.0.102.22/tontine/jackpot/approval`
+**URL:** `http://{Base URL}/tontine/jackpot/approval`
 
-**Base URL:** `10.0.102.22`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -861,9 +860,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{{preprod}}/tontine/jackpot/getJackPotDetails?jackpotId=318`
+**URL:** `http://{Base URL}/tontine/jackpot/getJackPotDetails?jackpotId=318`
 
-**Base URL:** `{{preprod}}`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -883,9 +881,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://10.0.102.22/tontine/jackpot/getJackPotDetails?jackpotId=329`
+**URL:** `http://{Base URL}/tontine/jackpot/getJackPotDetails?jackpotId=329`
 
-**Base URL:** `10.0.102.22`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -905,10 +902,9 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://10.0.102.22/tontine-interne/jackpot/invitation?inviteeId=1214&state=APPROVED&event=DISBURSEMENT
+**URL:** `http://{Base URL}/tontine-interne/jackpot/invitation?inviteeId=1214&state=APPROVED&event=DISBURSEMENT
 `
 
-**Base URL:** `10.0.102.22`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -931,9 +927,9 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.31/tontine/jackpot`
+**URL:** `http://{Base URL}/tontine/jackpot`
 
-**Base URL:** `172.26.5.31`
+
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -959,9 +955,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://10.0.102.22/tontine-interne/tontine/sub/1502`
+**URL:** `http://{Base URL}/tontine-interne/tontine/sub/1502`
 
-**Base URL:** `10.0.102.22`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -971,10 +966,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://10.0.102.22/tontine/invitation/byWallet?wallet=653346688&tontineType=SUB_TONTINE
+**URL:** `http://{Base URL}/tontine/invitation/byWallet?wallet=653346688&tontineType=SUB_TONTINE
 `
-
-**Base URL:** `10.0.102.22`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -991,9 +984,9 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/tontine-interne/tontine/sub/1502`
+**URL:** `http://{Base URL}/tontine-interne/tontine/sub/1502`
 
-**Base URL:** `172.26.5.28`
+
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -1315,9 +1308,9 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDgwMjk3NTYsLTY3MTQ5MTU3OCwtMj
-EwMzkyODA0OCw4MjI3ODMwNDMsMTk4ODg0NjIyMCwtNDI4Nzcx
-OSwtOTQyNTY0MDI1LDUyMTUxMjQ4NywtMTM0NTQ4MDQ2MywxMT
-gzMTI5NjQ1LC0xMDg2NjAyODA2LDE2MzM4NjQ3NzgsLTU3ODE3
-MzU4Nl19
+eyJoaXN0b3J5IjpbLTE3MzY1NDU1MCwtNjcxNDkxNTc4LC0yMT
+AzOTI4MDQ4LDgyMjc4MzA0MywxOTg4ODQ2MjIwLC00Mjg3NzE5
+LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYzLDExOD
+MxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNTc4MTcz
+NTg2XX0=
 -->
