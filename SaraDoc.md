@@ -1015,7 +1015,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine/transact/history?memberId=2502&txnType=DISBURSEMENT&page=1&size=20`
+**URL:** `http://{{baseUrl}}/tontine/transact/history?memberId=2502&txnType=DISBURSEMENT&page=1&size=20`
 
 
 **Purpose:** This endpoint likely retrieves a list of resources.
@@ -1035,7 +1035,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine/transact/history?memberId=2461&txnType=DISBURSEMENT&page=0&size=20`
+**URL:** `http://{{baseUrl}}/tontine/transact/history?memberId=2461&txnType=DISBURSEMENT&page=0&size=20`
 
 
 
@@ -1057,7 +1057,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine/tontine/findByWallet?wallet=237655807870&tontineType=TONTINE`
+**URL:** `http://{{baseUrl}}/tontine/tontine/findByWallet?wallet=237655807870&tontineType=TONTINE`
 
 
 **Purpose:** This endpoint likely retrieves a list of resources.
@@ -1093,7 +1093,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine/invitation/byWallet?wallet=696403455&tontineId=453&state=&event&type=TONTINE&fromDate&toDate`
+**URL:** `http://{{baseUrl}}/tontine/invitation/byWallet?wallet=696403455&tontineId=453&state=&event&type=TONTINE&fromDate&toDate`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -1115,7 +1115,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine-interne/invitation/byWallet?wallet=655807870&tontineId=1217&tontineType=TONTINE`
+**URL:** `http://{{baseUrl}}/tontine-interne/invitation/byWallet?wallet=655807870&tontineId=1217&tontineType=TONTINE`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -1134,7 +1134,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine-interne/invitation/byWallet?wallet=655807870&tontineId=1217&tontineType=TONTINE`
+**URL:** `http://{{baseUrl}}/tontine-interne/invitation/byWallet?wallet=655807870&tontineId=1217&tontineType=TONTINE`
 
 
 
@@ -1157,7 +1157,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}:7001/api-internal/devices/checkConnexion/237659460125/IOS_16.2_9B153498-4CDD-46A2-B335-3409032DBFA`
+**URL:** `http://{{baseUrl}}:7001/api-internal/devices/checkConnexion/237659460125/IOS_16.2_9B153498-4CDD-46A2-B335-3409032DBFA`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -1166,7 +1166,7 @@ The collection is organized into three main categories:
 
 **Method:** `DELETE`
 
-**URL:** `http://{Base URL}/user-management/api-internal/devices/remove/166`
+**URL:** `http://{{baseUrl}}/user-management/api-internal/devices/remove/166`
 
 
 **Purpose:** This endpoint likely deletes a resource.
@@ -1181,7 +1181,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/user-management/api-internal/devices/myDevice/1027346`
+**URL:** `http://{{baseUrl}}/user-management/api-internal/devices/myDevice/1027346`
 
 
 
@@ -1202,7 +1202,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/bam/common/branch/YAOUNDE`
+**URL:** `http://{{baseUrl}}/bam/common/branch/YAOUNDE`
 
 
 **Purpose:** This endpoint likely fetches a specific resource using a query parameter.
@@ -1214,7 +1214,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `https://{Base URL}/bam/customer/accounts/771354`
+**URL:** `https://{{baseUrl}}/bam/customer/accounts/771354`
 
 
 
@@ -1223,7 +1223,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `https://{Base URL}/user-management/api/customers/profile`
+**URL:** `https://{{baseUrl}}/user-management/api/customers/profile`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -1233,7 +1233,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `https://{Base URL}/wallet-management/api/wallets/balance`
+**URL:** `https://{{baseUrl}}/wallet-management/api/wallets/balance`
 
 
 **Purpose:** This endpoint likely retrieves a list of resources.
@@ -1242,7 +1242,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/bam/customer/0748192`
+**URL:** `http://{{baseUrl}}/bam/customer/0748192`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -1251,7 +1251,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/wallet-management/api/wallets/237659460125/name`
+**URL:** `http://{{baseUrl}}/wallet-management/api/wallets/237659460125/name`
 
 
 **Purpose:** This endpoint likely fetches a specific resource using a query parameter.
@@ -1261,7 +1261,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/agentms/api/walletTransfers/walletCustomerDetails/237696403455`
+**URL:** `http://{{baseUrl}}/agentms/api/walletTransfers/walletCustomerDetails/237696403455`
 
 
 **Purpose:** This endpoint likely retrieves a list of resources.
@@ -1276,7 +1276,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/wallet-management/api-internal/wallets/getBalance?userType=CUSTOMER&walletOwnerNumber=237659460125`
+**URL:** `http://{{baseUrl}}/wallet-management/api-internal/wallets/getBalance?userType=CUSTOMER&walletOwnerNumber=237659460125`
 
 
 **Purpose:** This endpoint likely retrieves a list of resources.
@@ -1292,9 +1292,9 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDk0MjY0NDUsMjA5ODMwNDk2MSwtNj
-cxNDkxNTc4LC0yMTAzOTI4MDQ4LDgyMjc4MzA0MywxOTg4ODQ2
-MjIwLC00Mjg3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMz
-Q1NDgwNDYzLDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2
-NDc3OCwtNTc4MTczNTg2XX0=
+eyJoaXN0b3J5IjpbODk4NTUxMzg3LDIwOTgzMDQ5NjEsLTY3MT
+Q5MTU3OCwtMjEwMzkyODA0OCw4MjI3ODMwNDMsMTk4ODg0NjIy
+MCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4NywtMTM0NT
+Q4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2MzM4NjQ3
+NzgsLTU3ODE3MzU4Nl19
 -->
