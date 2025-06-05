@@ -216,9 +216,7 @@ The collection is organized into three main categories:
 
 
 ---
--   **Request Money**
-## Section: Request Money
----
+## 4. Request Money
 
 ### Endpoint: Get Received Request Money List
 
@@ -295,7 +293,9 @@ The collection is organized into three main categories:
 
 
 ---
--   **Transaction History**
+
+## 5. Transactions history
+
 ### Endpoint: Get All Wallet Transactions
 
 **Method:** `GET`
@@ -1359,8 +1359,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM2NDg2MjcsODIyNzgzMDQzLDE5OD
-g4NDYyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcs
-LTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNj
-MzODY0Nzc4LC01NzgxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbMTQ0MzU1OTE3NCw4MjI3ODMwNDMsMTk4OD
+g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
+MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
+M4NjQ3NzgsLTU3ODE3MzU4Nl19
 -->
