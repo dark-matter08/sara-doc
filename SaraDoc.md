@@ -23,6 +23,71 @@ The collection is organized into three main categories:
 -   **GIMAC**
 
 -   **Cash In**
+### Endpoint: Cash In
+
+**Method:** `POST`
+
+**URL:** `http://{{preprod}}/wallet-management-interne/api/wallets/topUp/afriland`
+
+**Base URL:** `{{preprod}}`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "bankAccount": "10005-00056-07605371051-12",
+    "mfaToken": 111111,
+    "validateWithPin": false,
+    "confirm": false,
+    "description": "Top up through bank",
+    "walletTopupReq": {
+        "countryCode": "CM",
+        "currencyCode": "XAF",
+        "amount": 10000
+    },
+    "complementInfoDTO": {
+        "paymentMethodCode": "WALLET_CASH_IN_METHOD",
+        "channel": "SARA_MOBILE",
+        "aggregatorCode": "",
+        "partnerCode": "",
+        "toMemberCode": "",
+        "fromMemberCode": "",
+        "toMemberShortName": "",
+        "fromMemberShortName": "",
+        "externalWalletSource": "",
+        "externalWalletDestination": "",
+        "externalMobileSource": "",
+        "externalMobileDestination": "",
+        "aggregatorTransactionType": "",
+        "digitalServiceType": "CASHIN_SM",
+        "messengerName": "",
+        "messengerPhone": "",
+        "paymentMode": "BANK_ACCOUNT"
+    },
+    "commission": {
+        "currencyCode": "XAF",
+        "transactionFee": 50,
+        "fixedAmount": 50,
+        "percentageAmount": 0,
+        "debitSenderAmount": 50.0,
+        "ttaAmount": 0.00,
+        "status": true,
+        "message": "FOND SUFFISANT"
+    }
+}
+
+```
+
+
+---
+
 -   **Cash Out**
 -   **Service Payment**
 -  **Calculate fee**
@@ -55,6 +120,32 @@ The collection is organized into three main categories:
 ```
 ---
 **Generate MFA token**
+### Endpoint: Generate MFA Token
+
+**Method:** `POST`
+
+**URL:** `http://10.0.102.22/user-management-interne/api/mfa/generate`
+
+**Base URL:** `10.0.102.22`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "mfaChannel": "EMAIL"
+}
+
+```
+
+
+---
 
 ### AUTH
 
@@ -521,126 +612,7 @@ The collection is organized into three main categories:
 ## Section: Cash In
 
 
----
 
-### Endpoint: Generate MFA Token
-
-**Method:** `POST`
-
-**URL:** `http://10.0.102.22/user-management-interne/api/mfa/generate`
-
-**Base URL:** `10.0.102.22`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "mfaChannel": "EMAIL"
-}
-
-```
-
-
----
-
-### Endpoint: Generate MFA Token
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.31/user-management-interne/api/mfa/generate`
-
-**Base URL:** `172.26.5.31`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "mfaChannel": "EMAIL"
-}
-
-```
-
-
----
-
-### Endpoint: Proceed Cash In
-
-**Method:** `POST`
-
-**URL:** `http://{{preprod}}/wallet-management-interne/api/wallets/topUp/afriland`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "bankAccount": "10005-00056-07605371051-12",
-    "mfaToken": 111111,
-    "validateWithPin": false,
-    "confirm": false,
-    "description": "Top up through bank",
-    "walletTopupReq": {
-        "countryCode": "CM",
-        "currencyCode": "XAF",
-        "amount": 10000
-    },
-    "complementInfoDTO": {
-        "paymentMethodCode": "WALLET_CASH_IN_METHOD",
-        "channel": "SARA_MOBILE",
-        "aggregatorCode": "",
-        "partnerCode": "",
-        "toMemberCode": "",
-        "fromMemberCode": "",
-        "toMemberShortName": "",
-        "fromMemberShortName": "",
-        "externalWalletSource": "",
-        "externalWalletDestination": "",
-        "externalMobileSource": "",
-        "externalMobileDestination": "",
-        "aggregatorTransactionType": "",
-        "digitalServiceType": "CASHIN_SM",
-        "messengerName": "",
-        "messengerPhone": "",
-        "paymentMode": "BANK_ACCOUNT"
-    },
-    "commission": {
-        "currencyCode": "XAF",
-        "transactionFee": 50,
-        "fixedAmount": 50,
-        "percentageAmount": 0,
-        "debitSenderAmount": 50.0,
-        "ttaAmount": 0.00,
-        "status": true,
-        "message": "FOND SUFFISANT"
-    }
-}
-
-```
-
-
----
 
 ### Endpoint: Proceed Cash In
 
@@ -1853,8 +1825,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDIxODM3NiwxOTg4ODQ2MjIwLC00Mj
-g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
-LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
-c4MTczNTg2XX0=
+eyJoaXN0b3J5IjpbMjQzMjA1MCwxOTg4ODQ2MjIwLC00Mjg3Nz
+E5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYzLDEx
+ODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNTc4MT
+czNTg2XX0=
 -->
