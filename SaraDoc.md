@@ -12,6 +12,35 @@ The collection is organized into three main categories:
    
 ---
 
+### OPERATIONS
+
+-   **Wallet To Wallet**
+- 
+-   **Bank Transfer**
+-   **Merchant**
+-   **Request Money**
+-   **Transaction History**
+-   **GIMAC**
+-   **Tontine**
+-   **Cash In**
+-   **Cash Out**
+-   **Service Payment**
+
+### AUTH
+
+-   **Connexion**
+-   **Login User**
+-   **Logout**
+-   **Verify Bank Account**
+-   **Register**
+-   **Forgot Password**
+-   **Recovery Password**
+
+### OTHERS
+
+-   **Notification**
+-   **Localisation Agence/ATM/TPE**
+-   **API Internal**
 ## Section: Tontine
 
 ---
@@ -2006,7 +2035,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODg0NjIyMCwtNDI4NzcxOSwtOTQyNT
-Y0MDI1LDUyMTUxMjQ4NywtMTM0NTQ4MDQ2MywxMTgzMTI5NjQ1
-LC0xMDg2NjAyODA2LDE2MzM4NjQ3NzgsLTU3ODE3MzU4Nl19
+eyJoaXN0b3J5IjpbMTM5MTk4NDcwMCwxOTg4ODQ2MjIwLC00Mj
+g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
+LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
+c4MTczNTg2XX0=
 -->
