@@ -189,10 +189,6 @@ The collection is organized into three main categories:
 
 **Purpose:** This endpoint likely retrieves resource details.
 
-
-
-
-
 ---
 
 ### Endpoint: Get Sub Tontine By Wallet
@@ -212,12 +208,7 @@ The collection is organized into three main categories:
 | Key | Value |
 |-----|-------|
 | wallet | 653346688 |
-| tontineType | SUB_TONTINE
- |
-
-
-
-
+| tontineType | SUB_TONTINE |
 ---
 
 ### Endpoint: Get Sub Tontine List
@@ -229,10 +220,6 @@ The collection is organized into three main categories:
 **Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
-
-
-
-
 
 ---
 
@@ -255,10 +242,6 @@ The collection is organized into three main categories:
 | txnType | CONTRIBUTION |
 | page | 1 |
 | size | 20 |
-
-
-
-
 ---
 
 ### Endpoint: Get Tontine Contribution List
@@ -280,10 +263,6 @@ The collection is organized into three main categories:
 | txnType | DISBURSEMENT |
 | page | 1 |
 | size | 20 |
-
-
-
-
 ---
 
 ### Endpoint: Get Tontine Jackpot History
@@ -306,9 +285,6 @@ The collection is organized into three main categories:
 | page | 0 |
 | size | 20 |
 
-
-
-
 ---
 
 ### Endpoint: Get Tontine List
@@ -328,10 +304,6 @@ The collection is organized into three main categories:
 |-----|-------|
 | wallet | 237655807870 |
 | tontineType | TONTINE |
-
-
-
-
 ---
 
 ### Endpoint: Get Tontine Member List
@@ -350,10 +322,6 @@ The collection is organized into three main categories:
 | Key | Value |
 |-----|-------|
 | tontineId | 27 |
-
-
-
-
 ---
 
 ### Endpoint: Get Tontine Pending Invitation List
@@ -2027,8 +1995,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDk1MzcsMTk4ODg0NjIyMCwtNDI4Nz
-cxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4NywtMTM0NTQ4MDQ2Mywx
-MTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2MzM4NjQ3NzgsLTU3OD
-E3MzU4Nl19
+eyJoaXN0b3J5IjpbMTMwMDgyMzY5NywxOTg4ODQ2MjIwLC00Mj
+g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
+LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
+c4MTczNTg2XX0=
 -->
