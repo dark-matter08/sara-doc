@@ -1,7 +1,7 @@
 
 # SARA V2 API Documentation 
 
-This document describes the available API endpoints in the SARA V2 mobile system.   
+This document describes the available API endpoints in the SARA V2 system.   
 The collection is organized into three main categories:
 
 -   **OPERATIONS**: APIs related to transaction flows and financial activities, including **wallet** and **bank** operations.
@@ -1719,12 +1719,6 @@ The collection is organized into three main categories:
 **Purpose:** This endpoint likely creates a new resource.
 
 
-
-
-### Request Body
-
-
-```json
 
 ### Endpoint: Get Agent member List
 
@@ -3615,6 +3609,6 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTgyMjc5NywxMTc4Njc3MDM5LC01NT
-QzMjY0NDJdfQ==
+eyJoaXN0b3J5IjpbLTE2NDQ2NDM0NjEsLTcyOTgyMjc5NywxMT
+c4Njc3MDM5LC01NTQzMjY0NDJdfQ==
 -->
