@@ -10,7 +10,7 @@ The collection is organized into three main categories:
     
 -   **OTHERS**: Additional supporting APIs that don't fall under the main operation or auth flows but are essential to the overall application functionality.
 
-## Available Base URLs (use as `{baseUrl}`)
+## Available Base URLs (use as `{{baseUrl}}`)
 - `http://10.0.102.22`
 - `http://172.26.5.28`
 - `http://{{preprod}}`
@@ -3615,5 +3615,5 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NzcwNTQ3LC01NTQzMjY0NDJdfQ==
+eyJoaXN0b3J5IjpbMTE3ODY3NzAzOSwtNTU0MzI2NDQyXX0=
 -->
