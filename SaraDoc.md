@@ -84,8 +84,118 @@ The collection is organized into three main categories:
 -   **Bank Transfer**
 -   **Merchant**
 -   **Request Money**
+## Section: Request Money
 
+
+---
+
+### Endpoint: Get Received Request Money List
+
+**Method:** `GET`
+
+**URL:** `http://172.26.5.28/wallet-management/api/requestMoney/received?page=0&size=10`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely retrieves a list of resources.
+
+
+### Query Parameters
+
+| Key | Value |
+|-----|-------|
+| page | 0 |
+| size | 10 |
+
+
+
+
+---
+
+### Endpoint: Get send request list
+
+**Method:** `GET`
+
+**URL:** `http://172.26.5.28/wallet-management/api/requestMoney/requested?page=1&size=10`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely retrieves a list of resources.
+
+
+### Query Parameters
+
+| Key | Value |
+|-----|-------|
+| page | 1 |
+| size | 10 |
+
+
+
+
+---
+
+### Endpoint: Pay Request
+
+**Method:** `POST`
+
+**URL:** `http://172.26.5.28/wallet-management-interne/api/transactions/payRequestMoney`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+     "requestCode": "7bb2838f-db12-492a-bea8-88c5fd66359a",
+        "reason": "Paying to request money",
+        "mfaToken": 378835,
+        "commission": {"currencyCode": "XAF", "transactionFee": 0.0, "feeId": null, "feeIds": [150], "fixedAmount": 0.0, "percentageAmount": 0.0, "debitSenderAmount": 0.0, "ttaAmount": 0.0, "status": true, "message": "FOND SUFFISANT"}
+}
+
+```
+
+
+---
 -   **Transaction History**
+### Endpoint: Get All Wallet Transactions
+
+**Method:** `GET`
+
+**URL:** `http://172.26.5.28/wallet-management/api/wallets/history?currencyCodes=XAF&fromDate=2023-12-04&toDate=2023-12-14&page=0&size=10`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely retrieves a list of resources.
+
+
+### Query Parameters
+
+| Key | Value |
+|-----|-------|
+| currencyCodes | XAF |
+| fromDate | 2023-12-04 |
+| toDate | 2023-12-14 |
+| page | 0 |
+| size | 10 |
+
+
+### Endpoint: Get Bank Transactions History
+
+**Method:** `GET`
+
+**URL:** `http://{{preprod}}/bam/account/statement/10005-00056-07605371051-12/2023-02-26/2023-03-08/0/100`
+
+**Base URL:** `{{preprod}}`
+
+**Purpose:** This endpoint likely retrieves resource details.
 -   **GIMAC**
 
 -   **Cash In**
@@ -809,178 +919,6 @@ The collection is organized into three main categories:
 ```
 
 
----
-
-## Section: Request Money
-
-
----
-
-### Endpoint: Get Received Request Money List
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.28/wallet-management/api/requestMoney/received?page=0&size=10`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely retrieves a list of resources.
-
-
-### Query Parameters
-
-| Key | Value |
-|-----|-------|
-| page | 0 |
-| size | 10 |
-
-
-
-
----
-
-### Endpoint: Get send request list
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.28/wallet-management/api/requestMoney/requested?page=1&size=10`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely retrieves a list of resources.
-
-
-### Query Parameters
-
-| Key | Value |
-|-----|-------|
-| page | 1 |
-| size | 10 |
-
-
-
-
----
-
-### Endpoint: Pay Request
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.28/wallet-management-interne/api/transactions/payRequestMoney`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-     "requestCode": "7bb2838f-db12-492a-bea8-88c5fd66359a",
-        "reason": "Paying to request money",
-        "mfaToken": 378835,
-        "commission": {"currencyCode": "XAF", "transactionFee": 0.0, "feeId": null, "feeIds": [150], "fixedAmount": 0.0, "percentageAmount": 0.0, "debitSenderAmount": 0.0, "ttaAmount": 0.0, "status": true, "message": "FOND SUFFISANT"}
-}
-
-```
-
-
----
-
-## Section: Transaction History
-
-
----
-
-### Endpoint: Get All Wallet Transactions
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.28/wallet-management/api/wallets/history?currencyCodes=XAF&fromDate=2023-12-04&toDate=2023-12-14&page=0&size=10`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely retrieves a list of resources.
-
-
-### Query Parameters
-
-| Key | Value |
-|-----|-------|
-| currencyCodes | XAF |
-| fromDate | 2023-12-04 |
-| toDate | 2023-12-14 |
-| page | 0 |
-| size | 10 |
-
-
-
-
----
-
-### Endpoint: Get All Wallet Transactions
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.28/wallet-management/api/wallets/history?currencyCodes=XAF&fromDate=2024-03-12&toDate=2024-03-12&page=3&size=10`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely retrieves a list of resources.
-
-
-### Query Parameters
-
-| Key | Value |
-|-----|-------|
-| currencyCodes | XAF |
-| fromDate | 2024-03-12 |
-| toDate | 2024-03-12 |
-| page | 3 |
-| size | 10 |
-
-
-
-
----
-
-### Endpoint: Get Bank Transactions History
-
-**Method:** `GET`
-
-**URL:** `http://{{preprod}}/bam/account/statement/10005-00056-07605371051-12/2023-02-26/2023-03-08/0/100`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-
----
-
-### Endpoint: Get Bank Transactions History
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.28/bam/account/statement/10005-00001-05452011051-50/2023-05-17/2023-08-27/0/100`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-
----
-
 ## Section: Gimac
 
 
@@ -1548,8 +1486,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzA1MjMzOSwxOTg4ODQ2MjIwLC00Mj
-g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
-LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
-c4MTczNTg2XX0=
+eyJoaXN0b3J5IjpbMzM2MjA0MTgzLDE5ODg4NDYyMjAsLTQyOD
+c3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMs
+MTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01Nz
+gxNzM1ODZdfQ==
 -->
