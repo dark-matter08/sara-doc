@@ -392,33 +392,7 @@ The collection is organized into three main categories:
 -   **Localisation Agence/ATM/TPE**
 -   **API Internal**
 
-## Section: Tontine
-
----
-
-
-
-
-## Section: Connexion
-
-
----
-
-### Endpoint: Get Bank Accounts
-
-**Method:** `GET`
-
-**URL:** `https://41.205.80.37/bam/customer/accounts/0760537`
-
-**Base URL:** `41.205.80.37`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-
----
+ **Accounts**
 
 ### Endpoint: Get Bank Accounts
 
@@ -427,8 +401,6 @@ The collection is organized into three main categories:
 **URL:** `https://172.26.5.28/bam/customer/accounts/771354`
 
 **Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely retrieves resource details.
 
 
 
@@ -1995,7 +1967,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTEzOTk1MSwxOTg4ODQ2MjIwLC00Mj
+eyJoaXN0b3J5IjpbLTE0MjcxMjI2NSwxOTg4ODQ2MjIwLC00Mj
 g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
 LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
 c4MTczNTg2XX0=
