@@ -451,6 +451,44 @@ The collection is organized into three main categories:
 
 -   **Verify Bank Account**
 -   **Register**
+### Endpoint: Bank Souscription
+
+**Method:** `POST`
+
+**URL:** `http://{{preprod}}/user-management/api-public/registration/customer`
+
+**Base URL:** `{{preprod}}`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "bankCustomerId": "1234567",
+    "countryCode": "CM",
+    "phoneNumberCountryCode": "237",
+    "passwordResetPhoneNumber": "237677876754",
+    "passwordResetEmailAddress": "recup@gmail.com",
+    "phoneNumber": "237654996543",
+    "idDocumentType": "ID_CARD",
+    "idDocumentNumber": "111222333",
+    "idDocumentExpiryDate": "2023-11-04",
+    "uin": "123456",
+    "tcAccepted": true,
+    "locale": "fr",
+    "currencyCode": "XAF",
+    "agentBankerPhoneNumber": "agentbanker phone",
+    "registrationType": "EXISTING_BANK_CUSTOMER",
+    "recommandedByPhoneNumber": "237655435432"
+}
+
+```
 -   **Forgot Password**
 -   **Recovery Password**
 ### Endpoint: Fetch Recovery Email or PhoneNumber
@@ -472,6 +510,65 @@ The collection is organized into three main categories:
 **Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely retrieves resource details.
+
+### Endpoint: Generate OTP
+
+**Method:** `POST`
+
+**URL:** `http://172.26.5.28/user-management/api-public/mfa/generateOtpForValidatePhoneOrEmail`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "mfaToken": 748826,
+    "saraPhoneNumber": "237659460125",
+    "passwordResetPhoneNumber": "237655807870"
+}
+
+```
+
+
+---
+
+### Endpoint: Save phone number / email of recovery
+
+**Method:** `POST`
+
+**URL:** `http://172.26.5.28/user-management/api-public/customers/savePhoneOrEmailForPasswordReset`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "mfaToken": "111111",
+    "saraPhoneNumber": "237659460125",
+    "passwordResetEmailAddress":"bbb@gmail.com"
+}
+
+```
+
+
+---
+
 
 
 ### OTHERS
@@ -993,148 +1090,6 @@ The collection is organized into three main categories:
 
 ```
 
-### Endpoint: Generate OTP
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.28/user-management/api-public/mfa/generateOtpForValidatePhoneOrEmail`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "mfaToken": 748826,
-    "saraPhoneNumber": "237659460125",
-    "passwordResetPhoneNumber": "237655807870"
-}
-
-```
-
-
----
-
-### Endpoint: Save phone number / email of recovery
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.28/user-management/api-public/customers/savePhoneOrEmailForPasswordReset`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "mfaToken": "111111",
-    "saraPhoneNumber": "237659460125",
-    "passwordResetEmailAddress":"bbb@gmail.com"
-}
-
-```
-
-
----
-
-## Section: GIMAC
-
-
----
-
-### Endpoint: Check Gimac Availability
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.25:16073/api/gimac/authentication/doCheckAvailabilityOfGimac`
-
-**Base URL:** `172.26.5.25:16073`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-
----
-
-### Endpoint: New Request
-
-**Method:** `GET`
-
-**URL:** ``
-
-**Base URL:** `N/A`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-
----
-
-## Section: Register
-
-
----
-
-### Endpoint: Bank Souscription
-
-**Method:** `POST`
-
-**URL:** `http://{{preprod}}/user-management/api-public/registration/customer`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "bankCustomerId": "1234567",
-    "countryCode": "CM",
-    "phoneNumberCountryCode": "237",
-    "passwordResetPhoneNumber": "237677876754",
-    "passwordResetEmailAddress": "recup@gmail.com",
-    "phoneNumber": "237654996543",
-    "idDocumentType": "ID_CARD",
-    "idDocumentNumber": "111222333",
-    "idDocumentExpiryDate": "2023-11-04",
-    "uin": "123456",
-    "tcAccepted": true,
-    "locale": "fr",
-    "currencyCode": "XAF",
-    "agentBankerPhoneNumber": "agentbanker phone",
-    "registrationType": "EXISTING_BANK_CUSTOMER",
-    "recommandedByPhoneNumber": "237655435432"
-}
-
-```
-
-
----
-
 ## Section: Localisation Agence/ATM/TPE
 
 
@@ -1443,8 +1398,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDk5NDUsMTk4ODg0NjIyMCwtNDI4Nz
-cxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4NywtMTM0NTQ4MDQ2Mywx
-MTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2MzM4NjQ3NzgsLTU3OD
-E3MzU4Nl19
+eyJoaXN0b3J5IjpbMzY3ODQ4MjIwLDE5ODg4NDYyMjAsLTQyOD
+c3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMs
+MTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01Nz
+gxNzM1ODZdfQ==
 -->
