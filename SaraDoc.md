@@ -7,7 +7,6 @@ This document describes the available API endpoints in the SARA V2 system.
 
 ## Section: Tontine Yesdzfegh
 
-
 ---
 
 ### Endpoint: Add New Member
@@ -35,8 +34,6 @@ This document describes the available API endpoints in the SARA V2 system.
 }
 
 ```
-
-
 ---
 
 ### Endpoint: Get Jackpot Approval
@@ -2002,7 +1999,7 @@ This document describes the available API endpoints in the SARA V2 system.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzND
-U0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0
-Nzc4LC01NzgxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MT
+I0ODcsLTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgw
+NiwxNjMzODY0Nzc4LC01NzgxNzM1ODZdfQ==
 -->
