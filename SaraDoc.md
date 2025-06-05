@@ -2,10 +2,17 @@
 # SARA V2 API Documentation 
 
 This document describes the available API endpoints in the SARA V2 system.   
+The collection is organized into three main categories:
 
+-   **OPERATIONS**: APIs related to transaction flows and financial activities, including **wallet** and **bank** operations.
+    
+-   **AUTH**: Authentication and security-related endpoints to manage user access, tokens, and session flows.
+    
+-   **OTHERS**: Additional supporting APIs that don't fall under the main operation or auth flows but are essential to the overall application functionality.
+   
 ---
 
-## Section: Tontine Yesdzfegh
+## Section: Tontine
 
 ---
 
@@ -1999,7 +2006,7 @@ This document describes the available API endpoints in the SARA V2 system.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MT
-I0ODcsLTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgw
-NiwxNjMzODY0Nzc4LC01NzgxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbMTk4ODg0NjIyMCwtNDI4NzcxOSwtOTQyNT
+Y0MDI1LDUyMTUxMjQ4NywtMTM0NTQ4MDQ2MywxMTgzMTI5NjQ1
+LC0xMDg2NjAyODA2LDE2MzM4NjQ3NzgsLTU3ODE3MzU4Nl19
 -->
