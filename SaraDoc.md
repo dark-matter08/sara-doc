@@ -471,7 +471,7 @@ The collection is organized into three main categories:
 
 ---
 -   **Service Payment**
--### Endpoint: Get List Of Services
+### Endpoint: Get List Of Services
 
 **Method:** `GET`
 
@@ -1323,11 +1323,6 @@ The collection is organized into three main categories:
 **Purpose:** This endpoint likely fetches a specific resource using a query parameter.
 
 
-## Section: Api Internal
-
-
----
-
 ### Endpoint: Wallet Transfer Get Customer Detailes
 
 **Method:** `GET`
@@ -1365,7 +1360,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQwMTAxMDIsODIyNzgzMDQzLDE5OD
+eyJoaXN0b3J5IjpbLTEzMjAxOTYxODIsODIyNzgzMDQzLDE5OD
 g4NDYyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcs
 LTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNj
 MzODY0Nzc4LC01NzgxNzM1ODZdfQ==
