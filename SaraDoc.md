@@ -471,6 +471,68 @@ The collection is organized into three main categories:
 
 ---
 -   **Service Payment**
+- **Merchant payment**
+## Section: Merchant
+
+
+---
+
+### Endpoint: Get Merchant Details
+
+**Method:** `POST`
+
+**URL:** `http://10.0.102.22/saramerchant-interne/customer/transactions/before-payment-by-code`
+
+**Base URL:** `10.0.102.22`
+
+**Purpose:** This endpoint likely retrieves resource details.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "merchantCode" :"237654842744"
+}
+
+```
+
+
+---
+
+### Endpoint: Pay Merchant
+
+**Method:** `POST`
+
+**URL:** `http://10.0.102.22/saramerchant-interne/customer/transactions/payment-by-code`
+
+**Base URL:** `10.0.102.22`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "debtorUserType": "CUSTOMER", 
+    "debtorUserId": "655807870", 
+    "currencyCode": "XAF", 
+    "amount": 250, 
+    "reason": "te", 
+    "merchantCode": "2376548427", 
+    "mfaToken": 111111
+}
+
+```
 -  **Calculate fee**
 ### Endpoint: Calculate Fees
 
@@ -1179,9 +1241,6 @@ The collection is organized into three main categories:
 **Purpose:** This endpoint likely fetches a specific resource using a query parameter.
 
 
-
--   **API Internal**
-
  **Accounts/Profile**
 
 ### Endpoint: Get Bank Accounts
@@ -1238,67 +1297,8 @@ The collection is organized into three main categories:
 
 
 
-## Section: Merchant
 
 
----
-
-### Endpoint: Get Merchant Details
-
-**Method:** `POST`
-
-**URL:** `http://10.0.102.22/saramerchant-interne/customer/transactions/before-payment-by-code`
-
-**Base URL:** `10.0.102.22`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "merchantCode" :"237654842744"
-}
-
-```
-
-
----
-
-### Endpoint: Pay Merchant
-
-**Method:** `POST`
-
-**URL:** `http://10.0.102.22/saramerchant-interne/customer/transactions/payment-by-code`
-
-**Base URL:** `10.0.102.22`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "debtorUserType": "CUSTOMER", 
-    "debtorUserId": "655807870", 
-    "currencyCode": "XAF", 
-    "amount": 250, 
-    "reason": "te", 
-    "merchantCode": "2376548427", 
-    "mfaToken": 111111
-}
-
-```
 
 
 
@@ -1386,8 +1386,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNzgzMDQzLDE5ODg4NDYyMjAsLTQyOD
-c3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMs
-MTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01Nz
-gxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbLTUzNjIxOTkzMCw4MjI3ODMwNDMsMTk4OD
+g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
+MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
+M4NjQ3NzgsLTU3ODE3MzU4Nl19
 -->
