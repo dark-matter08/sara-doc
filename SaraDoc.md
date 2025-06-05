@@ -30,8 +30,55 @@ The collection is organized into three main categories:
 
 -   **Connexion**
 -   **Login User**
+### Endpoint: Login User
 
+**Method:** `POST`
+
+**URL:** `http://172.26.5.28/user-management/api-public/auth/login`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+### Query Parameters
+
+| Key | Value |
+|-----|-------|
+|  | None |
+
+
+### Headers
+
+| Key | Value |
+|-----|-------|
+| client_id | PUBLIC_CLIENT |
+| grant_type | password |
+| username | c_659460125 |
+| password | 1234 |
+| Accept-Language |  |
+|  |  |
+
+
+
+---
 -   **Logout**
+### Endpoint: Logout
+
+**Method:** `POST`
+
+**URL:** `http://{{preprod}}/user-management/api-public/auth/logout`
+
+**Base URL:** `{{preprod}}`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+
+---
+
 -   **Verify Bank Account**
 -   **Register**
 -   **Forgot Password**
@@ -424,95 +471,6 @@ The collection is organized into three main categories:
 **Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
-
-
-
-
-
----
-
-### Endpoint: Login User
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.28/user-management/api-public/auth/login`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-### Query Parameters
-
-| Key | Value |
-|-----|-------|
-|  | None |
-
-
-### Headers
-
-| Key | Value |
-|-----|-------|
-| client_id | PUBLIC_CLIENT |
-| grant_type | password |
-| username | c_659460125 |
-| password | 1234 |
-| Accept-Language |  |
-|  |  |
-
-
-
----
-
-### Endpoint: Login User
-
-**Method:** `POST`
-
-**URL:** `https://172.26.5.28/user-management/api-public/auth/login`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-### Query Parameters
-
-| Key | Value |
-|-----|-------|
-|  | None |
-
-
-### Headers
-
-| Key | Value |
-|-----|-------|
-| client_id | PUBLIC_CLIENT |
-| grant_type | password |
-| username | c_659460125 |
-| password | 123456 |
-| Accept-Language |  |
-| sara-api-key | WYhfwpmOOGLdUR0sgjDd1aCNm1HMUikf |
-|  |  |
-
-
-
----
-
-### Endpoint: Logout
-
-**Method:** `POST`
-
-**URL:** `http://{{preprod}}/user-management/api-public/auth/logout`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-
----
 
 ### Endpoint: Verify Bank Account
 
@@ -1926,8 +1884,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwOTQ2MjA5LDE5ODg4NDYyMjAsLTQyOD
-c3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMs
-MTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01Nz
-gxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbMTgyODU4ODY4NSwxOTg4ODQ2MjIwLC00Mj
+g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
+LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
+c4MTczNTg2XX0=
 -->
