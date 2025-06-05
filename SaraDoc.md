@@ -15,10 +15,76 @@ The collection is organized into three main categories:
 ### OPERATIONS
 
 -   **Wallet To Wallet**
-- 
+### Endpoint: Proceed Wallet To Wallet
+
+**Method:** `POST`
+
+**URL:** `http://{{preprod}}/wallet-management/api/transactions/walletToWallet`
+
+**Base URL:** `{{preprod}}`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "beneficiaryUserType": "CUSTOMER",
+    "beneficiaryMobileNumber": "237693942919",
+    "amount": 100,
+    "currencyCode": "XAF",
+    "reason": "TR",
+    "commission": {
+        "currencyCode": "XAF",
+        "transactionFee": 1.1,
+        "feeIds": [
+            181
+        ],
+        "fixedAmount": 0.0,
+        "percentageAmount": 1.1,
+        "debitSenderAmount": 1.1,
+        "ttaAmount": 0.0,
+        "status": true,
+        "message": "FOND SUFFISANT"
+    },
+    "mfaToken": 111111,
+    "validateWithPin": false,
+    "confirm": false,
+    "complementInfoDTO": {
+        "paymentMethodCode": "WALLET_TO_WALLET_TRANSFER_METHOD",
+        "channel": "SARA_MOBILE",
+        "aggregatorCode": "",
+        "partnerCode": "",
+        "toMemberCode": "",
+        "fromMemberCode": "",
+        "toMemberShortName": "",
+        "fromMemberShortName": "",
+        "externalWalletSource": "",
+        "externalWalletDestination": "",
+        "externalMobileSource": "",
+        "externalMobileDestination": "",
+        "aggregatorTransactionType": "",
+        "digitalServiceType": "WALLET_TO_WALLET_TRANSF",
+        "messengerName": "",
+        "messengerPhone": "",
+        "paymentMode": "WALLET"
+    }
+}
+
+```
+
+
+---
+
 -   **Bank Transfer**
 -   **Merchant**
 -   **Request Money**
+
 -   **Transaction History**
 -   **GIMAC**
 
@@ -666,280 +732,19 @@ The collection is organized into three main categories:
 
 **Purpose:** This endpoint likely retrieves resource details.
 
+### Endpoint: Get UserName By His Phone Number
 
+**Method:** `GET`
 
-
-
-
-## Section: Cash Out
-
-
----
-
-
-
-
-## Section: Wallet To Wallet
-
-
----
-
-### Endpoint: Calculate Fees
-
-**Method:** `POST`
-
-**URL:** `http://{{preprod}}/sarabackofficeservices/customer/transactionFees/calculate`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "paymentMethodCode": "WALLET_TO_WALLET_TRANSFER_METHOD", 
-    "subscriptionPlanId": 2, 
-    "currencyCode": "XAF", 
-    "transactionAmount": 500
-    
-}
-
-```
-
-
----
-
-### Endpoint: Calculate Fees
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.28/sarabackofficeservices/customer/transactionFees/calculate`
+**URL:** `http://172.26.5.28/wallet-management/api/wallets/237659460125/name`
 
 **Base URL:** `172.26.5.28`
 
-**Purpose:** This endpoint likely creates a new resource.
+**Purpose:** This endpoint likely fetches a specific resource using a query parameter.
 
 
 
 
-### Request Body
-
-
-```json
-
-{
-    "paymentMethodCode": "WALLET_TO_WALLET_TRANSFER_METHOD", 
-    "subscriptionPlanId": 2, 
-    "currencyCode": "XAF", 
-    "transactionAmount": 500
-    
-}
-
-```
-
-
----
-
-### Endpoint: Generate MFA Token
-
-**Method:** `POST`
-
-**URL:** `http://{{preprod}}/user-management-interne/api/mfa/generate`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "mfaChannel": "EMAIL"
-}
-
-```
-
-
----
-
-### Endpoint: Generate MFA Token
-
-**Method:** `POST`
-
-**URL:** `https://172.26.5.28/user-management-interne/api/mfa/generate`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "mfaChannel": "EMAIL"
-}
-
-```
-
-
----
-
-
-
-
-
-
-
-
----
-
-### Endpoint: Proceed Wallet To Wallet
-
-**Method:** `POST`
-
-**URL:** `http://{{preprod}}/wallet-management/api/transactions/walletToWallet`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "beneficiaryUserType": "CUSTOMER",
-    "beneficiaryMobileNumber": "237693942919",
-    "amount": 100,
-    "currencyCode": "XAF",
-    "reason": "TR",
-    "commission": {
-        "currencyCode": "XAF",
-        "transactionFee": 1.1,
-        "feeIds": [
-            181
-        ],
-        "fixedAmount": 0.0,
-        "percentageAmount": 1.1,
-        "debitSenderAmount": 1.1,
-        "ttaAmount": 0.0,
-        "status": true,
-        "message": "FOND SUFFISANT"
-    },
-    "mfaToken": 111111,
-    "validateWithPin": false,
-    "confirm": false,
-    "complementInfoDTO": {
-        "paymentMethodCode": "WALLET_TO_WALLET_TRANSFER_METHOD",
-        "channel": "SARA_MOBILE",
-        "aggregatorCode": "",
-        "partnerCode": "",
-        "toMemberCode": "",
-        "fromMemberCode": "",
-        "toMemberShortName": "",
-        "fromMemberShortName": "",
-        "externalWalletSource": "",
-        "externalWalletDestination": "",
-        "externalMobileSource": "",
-        "externalMobileDestination": "",
-        "aggregatorTransactionType": "",
-        "digitalServiceType": "WALLET_TO_WALLET_TRANSF",
-        "messengerName": "",
-        "messengerPhone": "",
-        "paymentMode": "WALLET"
-    }
-}
-
-```
-
-
----
-
-### Endpoint: Proceed Wallet To Wallet
-
-**Method:** `POST`
-
-**URL:** `https://172.26.5.28/wallet-management/api/transactions/walletToWallet`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "beneficiaryUserType": "CUSTOMER",
-    "beneficiaryMobileNumber": "237693942919",
-    "amount": 100,
-    "currencyCode": "XAF",
-    "reason": "TR",
-    "commission": {
-        "currencyCode": "XAF",
-        "transactionFee": 1.1,
-        "feeIds": [
-            181
-        ],
-        "fixedAmount": 0.0,
-        "percentageAmount": 1.1,
-        "debitSenderAmount": 1.1,
-        "ttaAmount": 0.0,
-        "status": true,
-        "message": "FOND SUFFISANT"
-    },
-    "mfaToken": 633077,
-    "validateWithPin": false,
-    "confirm": false,
-    "complementInfoDTO": {
-        "paymentMethodCode": "WALLET_TO_WALLET_TRANSFER_METHOD",
-        "channel": "SARA_MOBILE",
-        "aggregatorCode": "",
-        "partnerCode": "",
-        "toMemberCode": "",
-        "fromMemberCode": "",
-        "toMemberShortName": "",
-        "fromMemberShortName": "",
-        "externalWalletSource": "",
-        "externalWalletDestination": "",
-        "externalMobileSource": "",
-        "externalMobileDestination": "",
-        "aggregatorTransactionType": "",
-        "digitalServiceType": "WALLET_TO_WALLET_TRANSF",
-        "messengerName": "",
-        "messengerPhone": "",
-        "paymentMode": "WALLET"
-    }
-}
-
-```
-
-
----
 
 ## Section: Merchant
 
@@ -1743,7 +1548,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzE1MTk0MCwxOTg4ODQ2MjIwLC00Mj
+eyJoaXN0b3J5IjpbMjA4NzA1MjMzOSwxOTg4ODQ2MjIwLC00Mj
 g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
 LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
 c4MTczNTg2XX0=
