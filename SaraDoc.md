@@ -564,9 +564,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://10.0.102.22/user-management-interne/api/mfa/generate`
-
-**Base URL:** `10.0.102.22`
+**URL:** `http://{Base URL}/user-management-interne/api/mfa/generate`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -593,9 +591,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://172.26.5.28/user-management/api-public/auth/login`
-
-**Base URL:** `172.26.5.28`
+**URL:** `http://{Base URL}/user-management/api-public/auth/login`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -626,9 +622,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{{preprod}}/user-management/api-public/auth/logout`
-
-**Base URL:** `{{preprod}}`
+**URL:** `http://{Base URL}/user-management/api-public/auth/logout`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -644,9 +638,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{{preprod}}/user-management/api-public/registration/customer`
-
-**Base URL:** `{{preprod}}`
+**URL:** `http://{Base URL}/user-management/api-public/registration/customer`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -685,9 +677,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://172.26.5.28/user-management/api-public/mfa/generateOtpPasswordResetAutonomous`
-
-**Base URL:** `172.26.5.28`
+**URL:** `http://{Base URL}/user-management/api-public/mfa/generateOtpPasswordResetAutonomous`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -714,9 +704,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/user-management/api-public/customers/forgotPasswordResetAutonomous`
-
-**Base URL:** `172.26.5.28`
+**URL:** `http://{Base URL}/user-management/api-public/customers/forgotPasswordResetAutonomous`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -749,9 +737,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/user-management/api-public/customers/passwordResetChannelIdentifiers/237696403455`
+**URL:** `http://{Base URL}/user-management/api-public/customers/passwordResetChannelIdentifiers/237696403455`
 
-**Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -759,9 +746,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/user-management/api-public/customers/passwordResetChannelIdentifiers/237659460125`
+**URL:** `http://{Base URL}/user-management/api-public/customers/passwordResetChannelIdentifiers/237659460125`
 
-**Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -769,9 +755,8 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://172.26.5.28/user-management/api-public/mfa/generateOtpForValidatePhoneOrEmail`
+**URL:** `http://{Base URL}/user-management/api-public/mfa/generateOtpForValidatePhoneOrEmail`
 
-**Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -1330,9 +1315,9 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2MjgyNjc2LC02NzE0OTE1NzgsLTIxMD
-M5MjgwNDgsODIyNzgzMDQzLDE5ODg4NDYyMjAsLTQyODc3MTks
-LTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMsMTE4Mz
-EyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01NzgxNzM1
-ODZdfQ==
+eyJoaXN0b3J5IjpbLTE0MDgwMjk3NTYsLTY3MTQ5MTU3OCwtMj
+EwMzkyODA0OCw4MjI3ODMwNDMsMTk4ODg0NjIyMCwtNDI4Nzcx
+OSwtOTQyNTY0MDI1LDUyMTUxMjQ4NywtMTM0NTQ4MDQ2MywxMT
+gzMTI5NjQ1LC0xMDg2NjAyODA2LDE2MzM4NjQ3NzgsLTU3ODE3
+MzU4Nl19
 -->
