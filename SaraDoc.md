@@ -1,7 +1,7 @@
 
 # SARA V2 API Documentation 
 
-This document describes the available API endpoints in the SARA V2 system.   
+This document describes the available API endpoints in the SARA V2 mobile system.   
 The collection is organized into three main categories:
 
 -   **OPERATIONS**: APIs related to transaction flows and financial activities, including **wallet** and **bank** operations.
@@ -1360,8 +1360,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM5MjgwNDgsODIyNzgzMDQzLDE5OD
-g4NDYyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcs
-LTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNj
-MzODY0Nzc4LC01NzgxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbLTY3MTQ5MTU3OCwtMjEwMzkyODA0OCw4Mj
+I3ODMwNDMsMTk4ODg0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1
+LDUyMTUxMjQ4NywtMTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMD
+g2NjAyODA2LDE2MzM4NjQ3NzgsLTU3ODE3MzU4Nl19
 -->
