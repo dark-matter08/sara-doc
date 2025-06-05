@@ -11,7 +11,7 @@ The collection is organized into three main categories:
 -   **OTHERS**: Additional supporting APIs that don't fall under the main operation or auth flows but are essential to the overall application functionality.
    
 ---
-**Base URL =** `{serverAddress}`
+**baseUrl=** `serverAddress`
 
 ## OPERATIONS
 
@@ -21,7 +21,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/wallet-management/api/transactions/walletToWallet`
+**URL:** `http://{{baseUrl}}/wallet-management/api/transactions/walletToWallet`
 
 ### Request Body
 
@@ -1292,9 +1292,9 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODMwNDk2MSwtNjcxNDkxNTc4LC0yMT
-AzOTI4MDQ4LDgyMjc4MzA0MywxOTg4ODQ2MjIwLC00Mjg3NzE5
-LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYzLDExOD
-MxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNTc4MTcz
-NTg2XX0=
+eyJoaXN0b3J5IjpbMTg0NDYxOTc5LDIwOTgzMDQ5NjEsLTY3MT
+Q5MTU3OCwtMjEwMzkyODA0OCw4MjI3ODMwNDMsMTk4ODg0NjIy
+MCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4NywtMTM0NT
+Q4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2MzM4NjQ3
+NzgsLTU3ODE3MzU4Nl19
 -->
