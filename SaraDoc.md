@@ -2,8 +2,6 @@
 # SARA V2 API Documentation (Combined)
 
 This document describes the available API endpoints in the SARA V2 system.
-
-
 ---
 
 ## Section: Tontine
@@ -2003,5 +2001,5 @@ This document describes the available API endpoints in the SARA V2 system.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODE3MzU4Nl19
+eyJoaXN0b3J5IjpbMTYzMzg2NDc3OCwtNTc4MTczNTg2XX0=
 -->
