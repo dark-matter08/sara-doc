@@ -471,6 +471,37 @@ The collection is organized into three main categories:
 
 ---
 -   **Service Payment**
+-### Endpoint: Get List Of Services
+
+**Method:** `GET`
+
+**URL:** `http://10.0.100.1/wallet-management/api/payment/services`
+
+**Base URL:** `10.0.100.1`
+
+**Purpose:** This endpoint likely retrieves a list of resources.
+
+
+
+
+
+---
+
+### Endpoint: Get List of merchants
+
+**Method:** `GET`
+
+**URL:** `http://10.0.100.1/wallet-management/api/payment/merchants`
+
+**Base URL:** `10.0.100.1`
+
+**Purpose:** This endpoint likely retrieves a list of resources.
+
+
+
+
+
+---
 - **Merchant payment**
 ## Section: Merchant
 
@@ -591,8 +622,6 @@ The collection is organized into three main categories:
 ---
 
 ### AUTH
-
--   **Connexion**
 -   **Login User**
 ### Endpoint: Login User
 
@@ -1294,56 +1323,6 @@ The collection is organized into three main categories:
 **Purpose:** This endpoint likely fetches a specific resource using a query parameter.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Section: Service Payment
-
-
----
-
-### Endpoint: Get List Of Services
-
-**Method:** `GET`
-
-**URL:** `http://10.0.100.1/wallet-management/api/payment/services`
-
-**Base URL:** `10.0.100.1`
-
-**Purpose:** This endpoint likely retrieves a list of resources.
-
-
-
-
-
----
-
-### Endpoint: Get List of merchants
-
-**Method:** `GET`
-
-**URL:** `http://10.0.100.1/wallet-management/api/payment/merchants`
-
-**Base URL:** `10.0.100.1`
-
-**Purpose:** This endpoint likely retrieves a list of resources.
-
-
-
-
-
----
-
 ## Section: Api Internal
 
 
@@ -1386,8 +1365,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjIxOTkzMCw4MjI3ODMwNDMsMTk4OD
-g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
-MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
-M4NjQ3NzgsLTU3ODE3MzU4Nl19
+eyJoaXN0b3J5IjpbLTE5MzQwMTAxMDIsODIyNzgzMDQzLDE5OD
+g4NDYyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcs
+LTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNj
+MzODY0Nzc4LC01NzgxNzM1ODZdfQ==
 -->
