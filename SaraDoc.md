@@ -1044,7 +1044,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get Tontine Contribution History
+### h. Endpoint: Get Tontine Contribution History
 
 **Method:** `GET`
 
@@ -1065,7 +1065,7 @@ The collection is organized into three main categories:
 | size | 20 |
 ---
 
-### Endpoint: Get Tontine Contribution List
+### i. Endpoint: Get Tontine Contribution List
 
 **Method:** `GET`
 
@@ -1086,7 +1086,7 @@ The collection is organized into three main categories:
 | size | 20 |
 ---
 
-### Endpoint: Get Tontine Jackpot History
+### j. Endpoint: Get Tontine Jackpot History
 
 **Method:** `GET`
 
@@ -1108,7 +1108,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get Tontine List
+### k. Endpoint: Get Tontine List
 
 **Method:** `GET`
 
@@ -1127,7 +1127,7 @@ The collection is organized into three main categories:
 | tontineType | TONTINE |
 ---
 
-### Endpoint: Get Tontine Member List
+### l. Endpoint: Get Tontine Member List
 
 **Method:** `GET`
 
@@ -1145,7 +1145,7 @@ The collection is organized into three main categories:
 | tontineId | 27 |
 ---
 
-### Endpoint: Get Tontine Pending Invitation List
+### m. Endpoint: Get Tontine Pending Invitation List
 
 **Method:** `GET`
 
@@ -1169,7 +1169,7 @@ The collection is organized into three main categories:
 | toDate | None |
 ---
 
-### Endpoint: Tontine Invitation
+### n. Endpoint: Tontine Invitation
 
 **Method:** `GET`
 
@@ -1189,7 +1189,7 @@ The collection is organized into three main categories:
 | tontineType | TONTINE |
 ---
 
-### Endpoint: Tontine Invitation
+### o. Endpoint: Tontine Invitation
 
 **Method:** `GET`
 
@@ -1209,8 +1209,10 @@ The collection is organized into three main categories:
 | tontineType | TONTINE |
 
 ---
--   **Devices management**
-### Endpoint: Check Connexion
+
+## **2. Devices management**
+
+### a. Endpoint: Check Connexion
 
 **Method:** `GET`
 
@@ -1220,7 +1222,7 @@ The collection is organized into three main categories:
 
 **Purpose:** This endpoint likely retrieves resource details.
 
-### Endpoint: Delete Device
+### b. Endpoint: Delete Device
 
 **Method:** `DELETE`
 
@@ -1236,7 +1238,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get Device List
+### c. Endpoint: Get Device List
 
 **Method:** `GET`
 
@@ -1255,7 +1257,8 @@ The collection is organized into three main categories:
 
 
 
--   **Localisation Agence/ATM/TPE**
+## **Localisation Agence/ATM/TPE**
+
 ### Endpoint: Get Branch By Town
 
 **Method:** `GET`
@@ -1357,7 +1360,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY4NzU1Myw4MjI3ODMwNDMsMTk4OD
+eyJoaXN0b3J5IjpbMTU3OTE2Mzc5Nyw4MjI3ODMwNDMsMTk4OD
 g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
 MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
 M4NjQ3NzgsLTU3ODE3MzU4Nl19
