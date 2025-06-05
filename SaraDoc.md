@@ -296,7 +296,7 @@ The collection is organized into three main categories:
 
 ## 5. Transactions history
 
-### Endpoint: Get All Wallet Transactions
+### a. Endpoint: Get All Wallet Transactions
 
 **Method:** `GET`
 
@@ -318,7 +318,7 @@ The collection is organized into three main categories:
 | size | 10 |
 
 
-### Endpoint: Get Bank Transactions History
+### b. Endpoint: Get Bank Transactions History
 
 **Method:** `GET`
 
@@ -328,7 +328,8 @@ The collection is organized into three main categories:
 
 **Purpose:** This endpoint likely retrieves resource details.
 
--   **GIMAC**
+## **6. GIMAC**
+
 ### Endpoint: Check Gimac Availability
 
 **Method:** `GET`
@@ -339,8 +340,7 @@ The collection is organized into three main categories:
 
 **Purpose:** This endpoint likely retrieves resource details.
 
--   **Cash In**
-### Endpoint: Cash In
+## **7. Cash In**
 
 **Method:** `POST`
 
@@ -405,8 +405,7 @@ The collection is organized into three main categories:
 
 ---
 
--   **Cash Out**
-### Endpoint: Proceed Cash Out
+## **8. Cash Out**
 
 **Method:** `POST`
 
@@ -469,7 +468,9 @@ The collection is organized into three main categories:
 
 
 ---
--   **Service Payment**
+
+## - **Service Payment**
+
 ### Endpoint: Get List Of Services
 
 **Method:** `GET`
@@ -1359,8 +1360,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzU1OTE3NCw4MjI3ODMwNDMsMTk4OD
-g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
-MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
-M4NjQ3NzgsLTU3ODE3MzU4Nl19
+eyJoaXN0b3J5IjpbLTEyOTYyMzcxNTQsODIyNzgzMDQzLDE5OD
+g4NDYyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcs
+LTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNj
+MzODY0Nzc4LC01NzgxNzM1ODZdfQ==
 -->
