@@ -589,9 +589,8 @@ The collection is organized into three main categories:
 }
 
 ```
----
-**Generate MFA token**
-### Endpoint: Generate MFA Token
+
+## **12. Generate MFA token**
 
 **Method:** `POST`
 
@@ -618,9 +617,9 @@ The collection is organized into three main categories:
 
 ---
 
-### AUTH
--   **Login User**
-### Endpoint: Login User
+# AUTH
+
+## **1. Login User**
 
 **Method:** `POST`
 
@@ -646,14 +645,14 @@ The collection is organized into three main categories:
 | grant_type | password |
 | username | c_659460125 |
 | password | 1234 |
-| Accept-Language |  |
-|  |  |
+| Accept-Language | en/fr |
+
 
 
 
 ---
--   **Logout**
-### Endpoint: Logout
+
+## **2. Logout**
 
 **Method:** `POST`
 
@@ -669,8 +668,8 @@ The collection is organized into three main categories:
 
 ---
 
--   **Verify Bank Account**
--   **Register**
+## **3. Register**
+
 ### Endpoint: Bank Souscription
 
 **Method:** `POST`
@@ -1357,8 +1356,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwOTkyMzM0LDgyMjc4MzA0MywxOTg4OD
-Q2MjIwLC00Mjg3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0x
-MzQ1NDgwNDYzLDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMz
-g2NDc3OCwtNTc4MTczNTg2XX0=
+eyJoaXN0b3J5IjpbMTIzNTIxNDc3OCw4MjI3ODMwNDMsMTk4OD
+g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
+MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
+M4NjQ3NzgsLTU3ODE3MzU4Nl19
 -->
