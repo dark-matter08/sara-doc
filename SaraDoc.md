@@ -455,7 +455,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/wallet-management/api/payment/services`
+**URL:** `http://{{baseUrl}}/wallet-management/api/payment/services`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -469,7 +469,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/wallet-management/api/payment/merchants`
+**URL:** `http://{{baseUrl}}/wallet-management/api/payment/merchants`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -485,7 +485,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/saramerchant-interne/customer/transactions/before-payment-by-code`
+**URL:** `http://{{baseUrl}}/saramerchant-interne/customer/transactions/before-payment-by-code`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -510,7 +510,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/saramerchant-interne/customer/transactions/payment-by-code`
+**URL:** `http://{{baseUrl}}/saramerchant-interne/customer/transactions/payment-by-code`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -538,7 +538,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/sarabackofficeservices-interne/customer/transactionFees/calculate`
+**URL:** `http://{{baseUrl}}/sarabackofficeservices-interne/customer/transactionFees/calculate`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -564,7 +564,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/user-management-interne/api/mfa/generate`
+**URL:** `http://{{baseUrl}}/user-management-interne/api/mfa/generate`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -591,7 +591,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/user-management/api-public/auth/login`
+**URL:** `http://{{baseUrl}}/user-management/api-public/auth/login`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -622,7 +622,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/user-management/api-public/auth/logout`
+**URL:** `http://{{baseUrl}}/user-management/api-public/auth/logout`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -638,7 +638,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/user-management/api-public/registration/customer`
+**URL:** `http://{{baseUrl}}/user-management/api-public/registration/customer`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -677,7 +677,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/user-management/api-public/mfa/generateOtpPasswordResetAutonomous`
+**URL:** `http://{{baseUrl}}/user-management/api-public/mfa/generateOtpPasswordResetAutonomous`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -704,7 +704,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/user-management/api-public/customers/forgotPasswordResetAutonomous`
+**URL:** `http://{{baseUrl}}/user-management/api-public/customers/forgotPasswordResetAutonomous`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -737,7 +737,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/user-management/api-public/customers/passwordResetChannelIdentifiers/237696403455`
+**URL:** `http://{{baseUrl}}/user-management/api-public/customers/passwordResetChannelIdentifiers/237696403455`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -746,7 +746,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/user-management/api-public/customers/passwordResetChannelIdentifiers/237659460125`
+**URL:** `http://{{baseUrl}}/user-management/api-public/customers/passwordResetChannelIdentifiers/237659460125`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -755,7 +755,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/user-management/api-public/mfa/generateOtpForValidatePhoneOrEmail`
+**URL:** `http://{{baseUrl}}/user-management/api-public/mfa/generateOtpForValidatePhoneOrEmail`
 
 
 **Purpose:** This endpoint likely creates a new resource.
@@ -783,7 +783,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/user-management/api-public/customers/savePhoneOrEmailForPasswordReset`
+**URL:** `http://{{baseUrl}}/user-management/api-public/customers/savePhoneOrEmailForPasswordReset`
 
 
 
@@ -818,7 +818,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/tontine/member`
+**URL:** `http://{{baseUrl}}/tontine/member`
 
 
 
@@ -845,7 +845,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine/jackpot/approval`
+**URL:** `http://{{baseUrl}}/tontine/jackpot/approval`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -860,7 +860,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine/jackpot/getJackPotDetails?jackpotId=318`
+**URL:** `http://{{baseUrl}}/tontine/jackpot/getJackPotDetails?jackpotId=318`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -881,7 +881,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{Base URL}/tontine/jackpot/getJackPotDetails?jackpotId=329`
+**URL:** `http://{{baseUrl}}/tontine/jackpot/getJackPotDetails?jackpotId=329`
 
 
 **Purpose:** This endpoint likely retrieves resource details.
@@ -1292,7 +1292,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDczMDM4MywyMDk4MzA0OTYxLC02Nz
+eyJoaXN0b3J5IjpbLTY5OTE2MzEwNSwyMDk4MzA0OTYxLC02Nz
 E0OTE1NzgsLTIxMDM5MjgwNDgsODIyNzgzMDQzLDE5ODg4NDYy
 MjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzND
 U0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0
