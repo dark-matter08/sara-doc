@@ -13,9 +13,6 @@ The collection is organized into three main categories:
 ## Available Base URLs (use as `{{baseUrl}}`)
 - `http://10.0.102.22`
 - `http://172.26.5.28`
-- `http://{{preprod}}`
-- `https://41.205.80.37`
-- `https://{{preprod}}`
 
 
 ## OPERATIONS
@@ -3609,6 +3606,6 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ2NDM0NjEsLTcyOTgyMjc5NywxMT
-c4Njc3MDM5LC01NTQzMjY0NDJdfQ==
+eyJoaXN0b3J5IjpbMTQ1MDEzNjc1NCwtMTY0NDY0MzQ2MSwtNz
+I5ODIyNzk3LDExNzg2NzcwMzksLTU1NDMyNjQ0Ml19
 -->
