@@ -1257,7 +1257,7 @@ The collection is organized into three main categories:
 
 
 
-## **Localisation Agence/ATM/TPE**
+## **3. Localisation Agence/ATM/TPE**
 
 ### Endpoint: Get Branch By Town
 
@@ -1270,9 +1270,9 @@ The collection is organized into three main categories:
 **Purpose:** This endpoint likely fetches a specific resource using a query parameter.
 
 
- **Accounts/Profile**
+## **4. Accounts/Profile**
 
-### Endpoint: Get Bank Accounts
+### a. Endpoint: Get Bank Accounts
 
 **Method:** `GET`
 
@@ -1281,7 +1281,7 @@ The collection is organized into three main categories:
 **Base URL:** `172.26.5.28`
 
 
-### Endpoint: Get User Profile
+### b. Endpoint: Get User Profile
 
 **Method:** `GET`
 
@@ -1292,7 +1292,7 @@ The collection is organized into three main categories:
 **Purpose:** This endpoint likely retrieves resource details.
 
 
-### Endpoint: Get Wallet Account
+### c. Endpoint: Get Wallet Account
 
 **Method:** `GET`
 
@@ -1302,7 +1302,7 @@ The collection is organized into three main categories:
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
-### Endpoint: Verify Bank Account
+### d. Endpoint: Verify Bank Account
 
 **Method:** `GET`
 
@@ -1312,7 +1312,7 @@ The collection is organized into three main categories:
 
 **Purpose:** This endpoint likely retrieves resource details.
 
-### Endpoint: Get UserName By His Phone Number
+### e. Endpoint: Get UserName By His Phone Number
 
 **Method:** `GET`
 
@@ -1323,7 +1323,7 @@ The collection is organized into three main categories:
 **Purpose:** This endpoint likely fetches a specific resource using a query parameter.
 
 
-### Endpoint: Wallet Transfer Get Customer Detailes
+### f. Endpoint: Wallet Transfer Get Customer Detailes
 
 **Method:** `GET`
 
@@ -1339,7 +1339,7 @@ The collection is organized into three main categories:
 
 ---
 
-### Endpoint: Get User Wallet Balance
+### g. Endpoint: Get User Wallet Balance
 
 **Method:** `GET`
 
@@ -1360,8 +1360,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTE2Mzc5Nyw4MjI3ODMwNDMsMTk4OD
-g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
-MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
-M4NjQ3NzgsLTU3ODE3MzU4Nl19
+eyJoaXN0b3J5IjpbLTIxMDM5MjgwNDgsODIyNzgzMDQzLDE5OD
+g4NDYyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcs
+LTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNj
+MzODY0Nzc4LC01NzgxNzM1ODZdfQ==
 -->
