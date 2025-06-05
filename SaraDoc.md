@@ -14,9 +14,9 @@ The collection is organized into three main categories:
 
 ## OPERATIONS
 
-## **Wallet To Wallet**
+## **1. Wallet To Wallet**
 
-Endpoint: Proceed Wallet To Wallet
+### Endpoint: Proceed Wallet to Wallet
 
 **Method:** `POST`
 
@@ -77,7 +77,8 @@ Endpoint: Proceed Wallet To Wallet
 
 ---
 
--   **Bank to bank Transfer**
+## **2. Bank to bank Transfer**
+
 ### Endpoint: Bank To Bank Transfer
 
 **Method:** `POST`
@@ -145,7 +146,9 @@ Endpoint: Proceed Wallet To Wallet
 
 
 ---
--   **Recurrent bank transfer**
+
+## **3. Recurrent bank transfer**
+
 ### Endpoint: Recurent Bank Transfer
 
 **Method:** `POST`
@@ -1356,8 +1359,8 @@ Endpoint: Proceed Wallet To Wallet
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzY0NTUxNCw4MjI3ODMwNDMsMTk4OD
-g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
-MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
-M4NjQ3NzgsLTU3ODE3MzU4Nl19
+eyJoaXN0b3J5IjpbLTE5MDM2NDg2MjcsODIyNzgzMDQzLDE5OD
+g4NDYyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcs
+LTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNj
+MzODY0Nzc4LC01NzgxNzM1ODZdfQ==
 -->
