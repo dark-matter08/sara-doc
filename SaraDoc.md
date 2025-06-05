@@ -82,7 +82,7 @@ The collection is organized into three main categories:
 
 **Method:** `POST`
 
-**URL:** `http://{Base URL}/bam/txn`
+**URL:** `http://{{baseUrl}}/bam/txn`
 
 **Purpose:** This endpoint likely creates a new resource.
 
@@ -1292,9 +1292,9 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDYxOTc5LDIwOTgzMDQ5NjEsLTY3MT
-Q5MTU3OCwtMjEwMzkyODA0OCw4MjI3ODMwNDMsMTk4ODg0NjIy
-MCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4NywtMTM0NT
-Q4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2MzM4NjQ3
-NzgsLTU3ODE3MzU4Nl19
+eyJoaXN0b3J5IjpbLTE2MTk0NzAxOSwyMDk4MzA0OTYxLC02Nz
+E0OTE1NzgsLTIxMDM5MjgwNDgsODIyNzgzMDQzLDE5ODg4NDYy
+MjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzND
+U0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0
+Nzc4LC01NzgxNzM1ODZdfQ==
 -->
