@@ -81,8 +81,75 @@ The collection is organized into three main categories:
 
 ---
 
--   **Bank Transfer**
--   **Merchant**
+-   **Bank to bank Transfer**
+### Endpoint: Bank To Bank Transfer
+
+**Method:** `POST`
+
+**URL:** `http://172.26.5.28/bam/txn`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "sender": "10005-00001-38110090602-06",
+    "receiverName": "BOULA FANKEM FRANKLIN",
+    "receiver": "10005-00001-06139111051-05",
+    "amount": 1000,
+    "currency": "XAF",
+    "description": "TR",
+    "commission": {
+        "currencyCode": "XAF",
+        "transactionFee": 50,
+        "feeIds": [
+            183
+        ],
+        "fixedAmount": 50,
+        "percentageAmount": 0,
+        "debitSenderAmount": 50.0,
+        "ttaAmount": 0.00,
+        "status": true,
+        "message": "FOND SUFFISANT"
+    },
+    "type": "DEPOSIT",
+    "mfaToken": 111111,
+    "validateWithPin": false,
+    "confirm": false,
+    "complementInfoDTO": {
+        "paymentMethodCode": "BANK_TO_BANK_TRANSFER_METHOD",
+        "channel": "SARA_MOBILE",
+        "aggregatorCode": "",
+        "partnerCode": "",
+        "toMemberCode": "",
+        "fromMemberCode": "",
+        "toMemberShortName": "",
+        "fromMemberShortName": "",
+        "externalWalletSource": "",
+        "externalWalletDestination": "",
+        "externalMobileSource": "",
+        "externalMobileDestination": "",
+        "aggregatorTransactionType": "",
+        "digitalServiceType": "BANK_ACCOUNT_TO_BANK_ACCOUNT_TRANSF",
+        "messengerName": "",
+        "messengerPhone": "",
+        "paymentMode": "BANK_ACCOUNT"
+    }
+}
+
+```
+
+
+---
+-   **Recurrent bank**
 -   **Request Money**
 ## Section: Request Money
 
@@ -970,6 +1037,18 @@ The collection is organized into three main categories:
 
 
 -   **Localisation Agence/ATM/TPE**
+### Endpoint: Get Branch By Town
+
+**Method:** `GET`
+
+**URL:** `http://10.0.100.1/bam/common/branch/YAOUNDE`
+
+**Base URL:** `10.0.100.1`
+
+**Purpose:** This endpoint likely fetches a specific resource using a query parameter.
+
+
+
 -   **API Internal**
 
  **Accounts/Profile**
@@ -1090,99 +1169,6 @@ The collection is organized into three main categories:
 
 ```
 
-## Section: Localisation Agence/ATM/TPE
-
-
----
-
-### Endpoint: Get Branch By Town
-
-**Method:** `GET`
-
-**URL:** `http://10.0.100.1/bam/common/branch/YAOUNDE`
-
-**Base URL:** `10.0.100.1`
-
-**Purpose:** This endpoint likely fetches a specific resource using a query parameter.
-
-
-
-
-
----
-
-## Section: Bank Transfer
-
-
----
-
-### Endpoint: Bank To Bank Transfer
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.28/bam/txn`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "sender": "10005-00001-38110090602-06",
-    "receiverName": "BOULA FANKEM FRANKLIN",
-    "receiver": "10005-00001-06139111051-05",
-    "amount": 1000,
-    "currency": "XAF",
-    "description": "TR",
-    "commission": {
-        "currencyCode": "XAF",
-        "transactionFee": 50,
-        "feeIds": [
-            183
-        ],
-        "fixedAmount": 50,
-        "percentageAmount": 0,
-        "debitSenderAmount": 50.0,
-        "ttaAmount": 0.00,
-        "status": true,
-        "message": "FOND SUFFISANT"
-    },
-    "type": "DEPOSIT",
-    "mfaToken": 111111,
-    "validateWithPin": false,
-    "confirm": false,
-    "complementInfoDTO": {
-        "paymentMethodCode": "BANK_TO_BANK_TRANSFER_METHOD",
-        "channel": "SARA_MOBILE",
-        "aggregatorCode": "",
-        "partnerCode": "",
-        "toMemberCode": "",
-        "fromMemberCode": "",
-        "toMemberShortName": "",
-        "fromMemberShortName": "",
-        "externalWalletSource": "",
-        "externalWalletDestination": "",
-        "externalMobileSource": "",
-        "externalMobileDestination": "",
-        "aggregatorTransactionType": "",
-        "digitalServiceType": "BANK_ACCOUNT_TO_BANK_ACCOUNT_TRANSF",
-        "messengerName": "",
-        "messengerPhone": "",
-        "paymentMode": "BANK_ACCOUNT"
-    }
-}
-
-```
-
-
----
 
 ### Endpoint: Recurent Bank Transfer
 
@@ -1398,8 +1384,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3ODQ4MjIwLDE5ODg4NDYyMjAsLTQyOD
-c3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMs
-MTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01Nz
-gxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbMTIzNTU5OTA0OSwxOTg4ODQ2MjIwLC00Mj
+g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
+LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
+c4MTczNTg2XX0=
 -->
