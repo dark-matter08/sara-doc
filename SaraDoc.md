@@ -1166,9 +1166,8 @@ The collection is organized into three main categories:
 
 **Method:** `DELETE`
 
-**URL:** `http://{{preprod}}/user-management/api-internal/devices/remove/166`
+**URL:** `http://{Base URL}/user-management/api-internal/devices/remove/166`
 
-**Base URL:** `{{preprod}}`
 
 **Purpose:** This endpoint likely deletes a resource.
 
@@ -1182,9 +1181,9 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{{preprod}}/user-management/api-internal/devices/myDevice/1027346`
+**URL:** `http://{Base URL}/user-management/api-internal/devices/myDevice/1027346`
 
-**Base URL:** `{{preprod}}`
+
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -1203,9 +1202,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://10.0.100.1/bam/common/branch/YAOUNDE`
+**URL:** `http://{Base URL}/bam/common/branch/YAOUNDE`
 
-**Base URL:** `10.0.100.1`
 
 **Purpose:** This endpoint likely fetches a specific resource using a query parameter.
 
@@ -1216,18 +1214,17 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `https://172.26.5.28/bam/customer/accounts/771354`
+**URL:** `https://{Base URL}/bam/customer/accounts/771354`
 
-**Base URL:** `172.26.5.28`
+
 
 
 ### b. Endpoint: Get User Profile
 
 **Method:** `GET`
 
-**URL:** `https://172.26.5.28/user-management/api/customers/profile`
+**URL:** `https://{Base URL}/user-management/api/customers/profile`
 
-**Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -1236,9 +1233,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `https://172.26.5.28/wallet-management/api/wallets/balance`
+**URL:** `https://{Base URL}/wallet-management/api/wallets/balance`
 
-**Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -1246,9 +1242,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{{preprod}}/bam/customer/0748192`
+**URL:** `http://{Base URL}/bam/customer/0748192`
 
-**Base URL:** `{{preprod}}`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -1256,9 +1251,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/wallet-management/api/wallets/237659460125/name`
+**URL:** `http://{Base URL}/wallet-management/api/wallets/237659460125/name`
 
-**Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely fetches a specific resource using a query parameter.
 
@@ -1267,9 +1261,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/agentms/api/walletTransfers/walletCustomerDetails/237696403455`
+**URL:** `http://{Base URL}/agentms/api/walletTransfers/walletCustomerDetails/237696403455`
 
-**Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -1300,9 +1293,9 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Mjk3ODgzNSwtNjcxNDkxNTc4LC0yMT
-AzOTI4MDQ4LDgyMjc4MzA0MywxOTg4ODQ2MjIwLC00Mjg3NzE5
-LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYzLDExOD
-MxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNTc4MTcz
-NTg2XX0=
+eyJoaXN0b3J5IjpbMjEyMzk4NzA5LC02NzE0OTE1NzgsLTIxMD
+M5MjgwNDgsODIyNzgzMDQzLDE5ODg4NDYyMjAsLTQyODc3MTks
+LTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMsMTE4Mz
+EyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01NzgxNzM1
+ODZdfQ==
 -->
