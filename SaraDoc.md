@@ -37,7 +37,7 @@ The collection is organized into three main categories:
 -   **Recovery Password**
 
 ### OTHERS
--    **Tontine**
+-  **Tontine**
 - ### Endpoint: Add New Member
 
 **Method:** `POST`
@@ -1995,7 +1995,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDgyMzY5NywxOTg4ODQ2MjIwLC00Mj
+eyJoaXN0b3J5IjpbLTIyNTEzOTk1MSwxOTg4ODQ2MjIwLC00Mj
 g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
 LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
 c4MTczNTg2XX0=
