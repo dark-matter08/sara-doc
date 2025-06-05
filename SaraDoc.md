@@ -25,6 +25,36 @@ The collection is organized into three main categories:
 -   **Cash In**
 -   **Cash Out**
 -   **Service Payment**
+-  **Calculate fee**
+### Endpoint: Calculate Fees
+
+**Method:** `POST`
+
+**URL:** `http://10.0.102.22/sarabackofficeservices-interne/customer/transactionFees/calculate`
+
+**Base URL:** `10.0.102.22`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "paymentMethodCode": "WALLET_CASH_IN_METHOD", 
+    "subscriptionPlanId": 2, 
+    "currencyCode": "XAF", 
+    "transactionAmount": 250
+    
+}
+
+```
+---
+**Generate MFA token**
 
 ### AUTH
 
@@ -489,67 +519,6 @@ The collection is organized into three main categories:
 ---
 
 ## Section: Cash In
-
-
----
-
-### Endpoint: Calculate Fees
-
-**Method:** `POST`
-
-**URL:** `http://10.0.102.22/sarabackofficeservices-interne/customer/transactionFees/calculate`
-
-**Base URL:** `10.0.102.22`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "paymentMethodCode": "WALLET_CASH_IN_METHOD", 
-    "subscriptionPlanId": 2, 
-    "currencyCode": "XAF", 
-    "transactionAmount": 250
-    
-}
-
-```
-
-
----
-
-### Endpoint: Calculate Fees
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.28/sarabackofficeservices-interne/customer/transactionFees/calculate`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "paymentMethodCode": "WALLET_CASH_IN_METHOD", 
-    "subscriptionPlanId": 2, 
-    "currencyCode": "XAF", 
-    "transactionAmount": 1000
-}
-
-```
 
 
 ---
@@ -1884,7 +1853,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODU4ODY4NSwxOTg4ODQ2MjIwLC00Mj
+eyJoaXN0b3J5IjpbLTkzMDIxODM3NiwxOTg4ODQ2MjIwLC00Mj
 g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
 LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
 c4MTczNTg2XX0=
