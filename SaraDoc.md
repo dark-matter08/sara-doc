@@ -21,7 +21,7 @@ The collection is organized into three main categories:
 -   **Request Money**
 -   **Transaction History**
 -   **GIMAC**
--   **Tontine**
+
 -   **Cash In**
 -   **Cash Out**
 -   **Service Payment**
@@ -37,15 +37,8 @@ The collection is organized into three main categories:
 -   **Recovery Password**
 
 ### OTHERS
-
--   **Notification**
--   **Localisation Agence/ATM/TPE**
--   **API Internal**
-## Section: Tontine
-
----
-
-### Endpoint: Add New Member
+-    **Tontine**
+- ### Endpoint: Add New Member
 
 **Method:** `POST`
 
@@ -385,10 +378,6 @@ The collection is organized into three main categories:
 | type | TONTINE |
 | fromDate | None |
 | toDate | None |
-
-
-
-
 ---
 
 ### Endpoint: Tontine Invitation
@@ -409,10 +398,6 @@ The collection is organized into three main categories:
 | wallet | 655807870 |
 | tontineId | 1217 |
 | tontineType | TONTINE |
-
-
-
-
 ---
 
 ### Endpoint: Tontine Invitation
@@ -434,10 +419,17 @@ The collection is organized into three main categories:
 | tontineId | 1217 |
 | tontineType | TONTINE |
 
+---
+-   **Notification**
+-   **Localisation Agence/ATM/TPE**
+-   **API Internal**
 
-
+## Section: Tontine
 
 ---
+
+
+
 
 ## Section: Connexion
 
@@ -2035,8 +2027,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTk4NDcwMCwxOTg4ODQ2MjIwLC00Mj
-g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
-LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
-c4MTczNTg2XX0=
+eyJoaXN0b3J5IjpbMjA3MDk1MzcsMTk4ODg0NjIyMCwtNDI4Nz
+cxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4NywtMTM0NTQ4MDQ2Mywx
+MTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2MzM4NjQ3NzgsLTU3OD
+E3MzU4Nl19
 -->
