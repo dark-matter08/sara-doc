@@ -12,21 +12,17 @@ The collection is organized into three main categories:
    
 ---
 
-### OPERATIONS
+## OPERATIONS
 
--   **Wallet To Wallet**
-### Endpoint: Proceed Wallet To Wallet
+## **Wallet To Wallet**
+
+Endpoint: Proceed Wallet To Wallet
 
 **Method:** `POST`
 
 **URL:** `http://{{preprod}}/wallet-management/api/transactions/walletToWallet`
 
 **Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
 
 ### Request Body
 
@@ -1360,8 +1356,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjAxOTYxODIsODIyNzgzMDQzLDE5OD
-g4NDYyMjAsLTQyODc3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcs
-LTEzNDU0ODA0NjMsMTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNj
-MzODY0Nzc4LC01NzgxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbMTQ2NzY0NTUxNCw4MjI3ODMwNDMsMTk4OD
+g0NjIyMCwtNDI4NzcxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4Nywt
+MTM0NTQ4MDQ2MywxMTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2Mz
+M4NjQ3NzgsLTU3ODE3MzU4Nl19
 -->
