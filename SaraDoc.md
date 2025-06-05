@@ -987,7 +987,6 @@ The collection is organized into three main categories:
 **URL:** `http://{Base URL}/tontine-interne/tontine/sub/1502`
 
 
-
 **Purpose:** This endpoint likely retrieves a list of resources.
 
 ---
@@ -996,9 +995,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/tontine/transact/history?memberId=2502&txnType=CONTRIBUTION&page=1&size=20`
+**URL:** `http://{Base URL}/tontine/transact/history?memberId=2502&txnType=CONTRIBUTION&page=1&size=20`
 
-**Base URL:** `172.26.5.28`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -1017,9 +1015,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{{preprod}}/tontine/transact/history?memberId=2502&txnType=DISBURSEMENT&page=1&size=20`
+**URL:** `http://{Base URL}/tontine/transact/history?memberId=2502&txnType=DISBURSEMENT&page=1&size=20`
 
-**Base URL:** `{{preprod}}`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -1038,9 +1035,9 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/tontine/transact/history?memberId=2461&txnType=DISBURSEMENT&page=0&size=20`
+**URL:** `http://{Base URL}/tontine/transact/history?memberId=2461&txnType=DISBURSEMENT&page=0&size=20`
 
-**Base URL:** `172.26.5.28`
+
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -1060,9 +1057,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://{{preprod}}/tontine/tontine/findByWallet?wallet=237655807870&tontineType=TONTINE`
+**URL:** `http://{Base URL}/tontine/tontine/findByWallet?wallet=237655807870&tontineType=TONTINE`
 
-**Base URL:** `{{preprod}}`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -1075,7 +1071,7 @@ The collection is organized into three main categories:
 | tontineType | TONTINE |
 ---
 
-### l. Endpoint: Get Tontine Member List
+### l. Endpoint: Get Tontine Member List ???
 
 **Method:** `GET`
 
@@ -1097,9 +1093,7 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://10.0.102.22/tontine/invitation/byWallet?wallet=696403455&tontineId=453&state=&event&type=TONTINE&fromDate&toDate`
-
-**Base URL:** `10.0.102.22`
+**URL:** `http://{Base URL}/tontine/invitation/byWallet?wallet=696403455&tontineId=453&state=&event&type=TONTINE&fromDate&toDate`
 
 **Purpose:** This endpoint likely retrieves a list of resources.
 
@@ -1121,9 +1115,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://10.0.102.22/tontine-interne/invitation/byWallet?wallet=655807870&tontineId=1217&tontineType=TONTINE`
+**URL:** `http://{Base URL}/tontine-interne/invitation/byWallet?wallet=655807870&tontineId=1217&tontineType=TONTINE`
 
-**Base URL:** `10.0.102.22`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -1141,9 +1134,9 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.28/tontine-interne/invitation/byWallet?wallet=655807870&tontineId=1217&tontineType=TONTINE`
+**URL:** `http://{Base URL}/tontine-interne/invitation/byWallet?wallet=655807870&tontineId=1217&tontineType=TONTINE`
 
-**Base URL:** `172.26.5.28`
+
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -1164,9 +1157,8 @@ The collection is organized into three main categories:
 
 **Method:** `GET`
 
-**URL:** `http://172.26.5.25:7001/api-internal/devices/checkConnexion/237659460125/IOS_16.2_9B153498-4CDD-46A2-B335-3409032DBFA`
+**URL:** `http://{Base URL}:7001/api-internal/devices/checkConnexion/237659460125/IOS_16.2_9B153498-4CDD-46A2-B335-3409032DBFA`
 
-**Base URL:** `172.26.5.25:7001`
 
 **Purpose:** This endpoint likely retrieves resource details.
 
@@ -1308,7 +1300,7 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzY1NDU1MCwtNjcxNDkxNTc4LC0yMT
+eyJoaXN0b3J5IjpbLTI1Mjk3ODgzNSwtNjcxNDkxNTc4LC0yMT
 AzOTI4MDQ4LDgyMjc4MzA0MywxOTg4ODQ2MjIwLC00Mjg3NzE5
 LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYzLDExOD
 MxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNTc4MTcz
