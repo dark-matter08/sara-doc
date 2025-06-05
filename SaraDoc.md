@@ -149,11 +149,76 @@ The collection is organized into three main categories:
 
 
 ---
--   **Recurrent bank**
+-   **Recurrent bank transfer**
+### Endpoint: Recurent Bank Transfer
+
+**Method:** `POST`
+
+**URL:** `http://172.26.5.28/bam/txn/recurrentTransfer`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "sender": "10005-00001-05452011051-50",
+    "receiverName": "Test beneficiare EKOBAN",
+    "receiver": "10029-26011-01318253101-34",
+    "amount": 1000,
+    "currency": "XAF",
+    "description": "TR",
+    "commission": {
+        "currencyCode": "XAF",
+        "transactionFee": 50,
+        "feeIds": [
+            183
+        ],
+        "fixedAmount": 50,
+        "percentageAmount": 0,
+        "debitSenderAmount": 50.0,
+        "ttaAmount": 0.00,
+        "status": true,
+        "message": "FOND SUFFISANT"
+    },
+    "type": "DEPOSIT",
+    "mfaToken": 111111,
+    "validateWithPin": false,
+    "confirm": false,
+    "complementInfoDTO": {
+        "paymentMethodCode": "BANK_TO_BANK_TRANSFER_METHOD",
+        "channel": "SARA_MOBILE",
+        "aggregatorCode": "",
+        "partnerCode": "",
+        "toMemberCode": "",
+        "fromMemberCode": "",
+        "toMemberShortName": "",
+        "fromMemberShortName": "",
+        "externalWalletSource": "",
+        "externalWalletDestination": "",
+        "externalMobileSource": "",
+        "externalMobileDestination": "",
+        "aggregatorTransactionType": "",
+        "digitalServiceType": "BANKACC_TO_BANKACC_RECCUR_TRANSF",
+        "messengerName": "",
+        "messengerPhone": "",
+        "paymentMode": "BANKACC_TO_BANKACC_RECCUR_TRANSF"
+    }
+}
+
+```
+
+
+---
 -   **Request Money**
 ## Section: Request Money
-
-
 ---
 
 ### Endpoint: Get Received Request Money List
@@ -557,6 +622,72 @@ The collection is organized into three main categories:
 
 ```
 -   **Forgot Password**
+- ## Section: Forgot password
+
+
+---
+
+### Endpoint: Generate OTP Password Reset Autonomus
+
+**Method:** `POST`
+
+**URL:** `http://172.26.5.28/user-management/api-public/mfa/generateOtpPasswordResetAutonomous`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely creates a new resource.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "saraPhoneNumber": "237696403455",
+    "emailAddressToValidate": "recuploic96@yopmail.com",
+    "phoneNumberToValidate": "237655282898"
+}
+
+```
+
+
+---
+
+### Endpoint: Reset Password
+
+**Method:** `GET`
+
+**URL:** `http://172.26.5.28/user-management/api-public/customers/forgotPasswordResetAutonomous`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely retrieves resource details.
+
+
+
+
+### Request Body
+
+
+```json
+
+{
+    "mfaToken": "111111",
+    "password": "1234",
+    "confirmPassword": "1234",
+    "mfaChannel": "SMS",
+    "saraPhoneNumber": "237696403455",
+    "passwordResetPhoneNumber": "237655282898",
+    "passwordResetEmailAddress": "recuploic96@yopmail.com"
+}
+
+```
+
+
+---
 -   **Recovery Password**
 ### Endpoint: Fetch Recovery Email or PhoneNumber
 
@@ -1170,140 +1301,11 @@ The collection is organized into three main categories:
 ```
 
 
-### Endpoint: Recurent Bank Transfer
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.28/bam/txn/recurrentTransfer`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
 
 
 
 
-### Request Body
 
-
-```json
-
-{
-    "sender": "10005-00001-05452011051-50",
-    "receiverName": "Test beneficiare EKOBAN",
-    "receiver": "10029-26011-01318253101-34",
-    "amount": 1000,
-    "currency": "XAF",
-    "description": "TR",
-    "commission": {
-        "currencyCode": "XAF",
-        "transactionFee": 50,
-        "feeIds": [
-            183
-        ],
-        "fixedAmount": 50,
-        "percentageAmount": 0,
-        "debitSenderAmount": 50.0,
-        "ttaAmount": 0.00,
-        "status": true,
-        "message": "FOND SUFFISANT"
-    },
-    "type": "DEPOSIT",
-    "mfaToken": 111111,
-    "validateWithPin": false,
-    "confirm": false,
-    "complementInfoDTO": {
-        "paymentMethodCode": "BANK_TO_BANK_TRANSFER_METHOD",
-        "channel": "SARA_MOBILE",
-        "aggregatorCode": "",
-        "partnerCode": "",
-        "toMemberCode": "",
-        "fromMemberCode": "",
-        "toMemberShortName": "",
-        "fromMemberShortName": "",
-        "externalWalletSource": "",
-        "externalWalletDestination": "",
-        "externalMobileSource": "",
-        "externalMobileDestination": "",
-        "aggregatorTransactionType": "",
-        "digitalServiceType": "BANKACC_TO_BANKACC_RECCUR_TRANSF",
-        "messengerName": "",
-        "messengerPhone": "",
-        "paymentMode": "BANKACC_TO_BANKACC_RECCUR_TRANSF"
-    }
-}
-
-```
-
-
----
-
-## Section: Forgot password
-
-
----
-
-### Endpoint: Generate OTP Password Reset Autonomus
-
-**Method:** `POST`
-
-**URL:** `http://172.26.5.28/user-management/api-public/mfa/generateOtpPasswordResetAutonomous`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely creates a new resource.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "saraPhoneNumber": "237696403455",
-    "emailAddressToValidate": "recuploic96@yopmail.com",
-    "phoneNumberToValidate": "237655282898"
-}
-
-```
-
-
----
-
-### Endpoint: Reset Password
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.28/user-management/api-public/customers/forgotPasswordResetAutonomous`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-### Request Body
-
-
-```json
-
-{
-    "mfaToken": "111111",
-    "password": "1234",
-    "confirmPassword": "1234",
-    "mfaChannel": "SMS",
-    "saraPhoneNumber": "237696403455",
-    "passwordResetPhoneNumber": "237655282898",
-    "passwordResetEmailAddress": "recuploic96@yopmail.com"
-}
-
-```
-
-
----
 
 ## Section: Service Payment
 
@@ -1384,8 +1386,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTU5OTA0OSwxOTg4ODQ2MjIwLC00Mj
-g3NzE5LC05NDI1NjQwMjUsNTIxNTEyNDg3LC0xMzQ1NDgwNDYz
-LDExODMxMjk2NDUsLTEwODY2MDI4MDYsMTYzMzg2NDc3OCwtNT
-c4MTczNTg2XX0=
+eyJoaXN0b3J5IjpbODIyNzgzMDQzLDE5ODg4NDYyMjAsLTQyOD
+c3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMs
+MTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01Nz
+gxNzM1ODZdfQ==
 -->
