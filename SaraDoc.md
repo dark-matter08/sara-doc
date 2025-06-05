@@ -196,7 +196,17 @@ The collection is organized into three main categories:
 **Base URL:** `{{preprod}}`
 
 **Purpose:** This endpoint likely retrieves resource details.
+
 -   **GIMAC**
+### Endpoint: Check Gimac Availability
+
+**Method:** `GET`
+
+**URL:** `http://172.26.5.28/gimac/api/gimac/authentication/doCheckAvailabilityOfGimac`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely retrieves resource details.
 
 -   **Cash In**
 ### Endpoint: Cash In
@@ -443,6 +453,26 @@ The collection is organized into three main categories:
 -   **Register**
 -   **Forgot Password**
 -   **Recovery Password**
+### Endpoint: Fetch Recovery Email or PhoneNumber
+
+**Method:** `GET`
+
+**URL:** `http://172.26.5.28/user-management/api-public/customers/passwordResetChannelIdentifiers/237696403455`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely retrieves resource details.
+
+### Endpoint: Fetch Recovery Email or PhoneNumber
+
+**Method:** `GET`
+
+**URL:** `http://172.26.5.28/user-management/api-public/customers/passwordResetChannelIdentifiers/237659460125`
+
+**Base URL:** `172.26.5.28`
+
+**Purpose:** This endpoint likely retrieves resource details.
+
 
 ### OTHERS
 -  **Tontine**
@@ -796,7 +826,52 @@ The collection is organized into three main categories:
 | tontineType | TONTINE |
 
 ---
--   **Notification**
+-   **Devices management**
+### Endpoint: Check Connexion
+
+**Method:** `GET`
+
+**URL:** `http://172.26.5.25:7001/api-internal/devices/checkConnexion/237659460125/IOS_16.2_9B153498-4CDD-46A2-B335-3409032DBFA`
+
+**Base URL:** `172.26.5.25:7001`
+
+**Purpose:** This endpoint likely retrieves resource details.
+
+### Endpoint: Delete Device
+
+**Method:** `DELETE`
+
+**URL:** `http://{{preprod}}/user-management/api-internal/devices/remove/166`
+
+**Base URL:** `{{preprod}}`
+
+**Purpose:** This endpoint likely deletes a resource.
+
+
+
+
+
+---
+
+### Endpoint: Get Device List
+
+**Method:** `GET`
+
+**URL:** `http://{{preprod}}/user-management/api-internal/devices/myDevice/1027346`
+
+**Base URL:** `{{preprod}}`
+
+**Purpose:** This endpoint likely retrieves a list of resources.
+
+
+### Query Parameters
+
+| Key | Value |
+|-----|-------|
+| type | root |
+
+
+
 -   **Localisation Agence/ATM/TPE**
 -   **API Internal**
 
@@ -917,124 +992,6 @@ The collection is organized into three main categories:
 }
 
 ```
-
-
-## Section: Gimac
-
-
----
-
-### Endpoint: Check Gimac Availability
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.28/gimac/api/gimac/authentication/doCheckAvailabilityOfGimac`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-
----
-
-## Section: Notification
-
-
----
-
-### Endpoint: Check Connexion
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.25:7001/api-internal/devices/checkConnexion/237659460125/IOS_16.2_9B153498-4CDD-46A2-B335-3409032DBFA`
-
-**Base URL:** `172.26.5.25:7001`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-
----
-
-### Endpoint: Delete Device
-
-**Method:** `DELETE`
-
-**URL:** `http://{{preprod}}/user-management/api-internal/devices/remove/166`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely deletes a resource.
-
-
-
-
-
----
-
-### Endpoint: Get Device List
-
-**Method:** `GET`
-
-**URL:** `http://{{preprod}}/user-management/api-internal/devices/myDevice/1027346`
-
-**Base URL:** `{{preprod}}`
-
-**Purpose:** This endpoint likely retrieves a list of resources.
-
-
-### Query Parameters
-
-| Key | Value |
-|-----|-------|
-| type | root |
-
-
-
-
----
-
-## Section: Recovery Password
-
-
----
-
-### Endpoint: Fetch Recovery Email or PhoneNumber
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.28/user-management/api-public/customers/passwordResetChannelIdentifiers/237696403455`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-
----
-
-### Endpoint: Fetch Recovery Email or PhoneNumber
-
-**Method:** `GET`
-
-**URL:** `http://172.26.5.28/user-management/api-public/customers/passwordResetChannelIdentifiers/237659460125`
-
-**Base URL:** `172.26.5.28`
-
-**Purpose:** This endpoint likely retrieves resource details.
-
-
-
-
-
----
 
 ### Endpoint: Generate OTP
 
@@ -1486,8 +1443,8 @@ The collection is organized into three main categories:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2MjA0MTgzLDE5ODg4NDYyMjAsLTQyOD
-c3MTksLTk0MjU2NDAyNSw1MjE1MTI0ODcsLTEzNDU0ODA0NjMs
-MTE4MzEyOTY0NSwtMTA4NjYwMjgwNiwxNjMzODY0Nzc4LC01Nz
-gxNzM1ODZdfQ==
+eyJoaXN0b3J5IjpbLTcyNDk5NDUsMTk4ODg0NjIyMCwtNDI4Nz
+cxOSwtOTQyNTY0MDI1LDUyMTUxMjQ4NywtMTM0NTQ4MDQ2Mywx
+MTgzMTI5NjQ1LC0xMDg2NjAyODA2LDE2MzM4NjQ3NzgsLTU3OD
+E3MzU4Nl19
 -->
